@@ -11,7 +11,7 @@ library(tidyverse)
 df_long <- gather(df, key = "Condition", value = "Time", -Year)
 
 # Set up plot structure
-p <- ggplot(df_long, aes(x = Condition, y = Time))
+p <- ggplot(df_long, aes(x = Condition, y = Time, color = Condition))
 p
 
 # Basic barplot
@@ -35,10 +35,11 @@ p + geom_boxplot() +
 p + geom_violin() +
   geom_point()
 
-# Violin plots with points and boxplots
+# Violin plots with points and boxplots flipped (X-wing plots?)
 p + geom_boxplot() +
   geom_violin() +
-  geom_point()
+  geom_point() + 
+  coord_flip()
 
 # Histograms of a single condition
 
@@ -97,10 +98,10 @@ p4 <- ggplot(subset(df_readingNoInt, Year == 2018), aes(Time, fill = Year)) +
 
 library(ggpubr)
 
-figure <- ggarrange(p1, p2, p3, p4,
-                    labels = c("2015", "2016", "2017", "2018"),
-                    ncol = 2, nrow = 2)
-figure
+ggarrange(p1, p2, p3, p4,
+  labels = c("2015", "2016", "2017", "2018"),
+  ncol = 2, nrow = 2)
+
 
 
 # adjust y-axis to make it easier to compare plots
@@ -124,11 +125,16 @@ p4 <- ggplot(subset(df_readingNoInt, Year == 2018), aes(Time, fill = Year)) +
   xlim(1.5, 6.5) +
   ylim(0, 1.25)
 
-figure <- ggarrange(p1, p2, p3, p4,
-                    labels = c("2015", "2016", "2017", "2018"),
-                    ncol = 2, nrow = 2)
-figure
+ggarrange(p1, p2, p3, p4,
+  labels = c("2015", "2016", "2017", "2018"),
+  ncol = 2, nrow = 2)
+
 
 # Is the number of participants an explanation for the differences in density?
 as.data.frame(table(df$Year))
+
+ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
+  geom_violin() +
+  geom_point() +
+  coord_flip()
 

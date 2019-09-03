@@ -1,7 +1,7 @@
 
 rm(list = ls())
 
-df <- read.csv("/Users/ethan/Documents/GitHub/LaCoBra/data/Stroop-raw-over-the-years.csv")
+df <- read.csv("/Users/ethan/Documents/GitHub/Stroop/Stroop-raw-over-the-years.csv")
 
 library(ggplot2)
 
@@ -11,7 +11,8 @@ library(tidyverse)
 df_long <- gather(df, key = "Condition", value = "Time", -Year)
 
 # Set up plot structure
-p <- ggplot(df_long, aes(x = Condition, y = Time, color = Condition))
+p <- ggplot(df_long, aes(x = Condition, y = Time))
+#p <- ggplot(df_long, aes(x = Condition, y = Time, color = Condition))
 p
 
 # Basic barplot
@@ -138,3 +139,67 @@ ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
   geom_point() +
   coord_flip()
 
+
+
+
+
+
+
+
+##################
+
+rm(list = ls())
+df <- read.csv("/Users/ethan/Documents/GitHub/ethanweed.github.io/r-tutorials/data/cdi_data_wordbank.csv", sep = ";")
+df <- subset(df, df$age < 12)
+df <- na.omit(df)
+
+head(df)
+ggplot(df, aes(age, comprehension, color = gender)) +
+  geom_smooth(method = lm)
+
+summary(df$age)
+
+
+mod1 <- lm(comprehension ~ age, data = df)
+mod2 <- lm(comprehension ~ age + gender, data = df)
+
+anova(mod1, mod2)
+
+mod1 <- lmer(comprehension ~ age, data = df)
+mod2 <- lm(comprehension ~ age + gender, data = df)
+mod3 <- lm(comprehension ~ age + gender + language, data = df)
+
+anova(mod1, mod2, mod3)
+
+ggplot(df, aes(age, comprehension, color = language)) +
+  geom_smooth(method = lm)
+
+ggplot(df, aes(age, comprehension, color = mom_ed)) +
+  geom_smooth(method = lm)
+
+d <- subset(df, language == "Danish" | language =="English (American)")
+dan <- subset(df, language == "Danish")
+eng <- subset(df, language == "English (American)")
+
+#linear
+ggplot(d, aes(age, comprehension, color = language)) +
+  geom_smooth(method = lm) +
+  geom_point()
+
+#quadratic
+ggplot(d, aes(age, comprehension, color = language)) +
+  geom_smooth(method = lm, formula = y ~ x + I(x^2)) +
+  geom_point()
+
+
+p1 <- ggplot(dan, aes(age, comprehension, color = mom_ed))+
+  geom_smooth(method = lm)
+p2 <- ggplot(eng, aes(age, comprehension, color = mom_ed))+
+  geom_smooth(method = lm)
+
+
+library(ggpubr)
+
+ggarrange(p1, p2, ncol = 1, nrow = 2)
+
+geom_s

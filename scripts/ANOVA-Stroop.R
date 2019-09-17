@@ -52,7 +52,12 @@ ggplot(df, aes(points, Reading_NoInt, color = 'Reading_NoInt')) +
   geom_hline(yintercept = column_means[2], color = 'black') +
   geom_hline(yintercept = column_means[3], color = 'black', linetype = 'dashed') +
   geom_hline(yintercept = column_means[4], color = 'black') +
+  geom_text(aes(x = 110, y = column_means[1], label = "RNI")) +
+  geom_text(aes(x = 110, y = column_means[2], label = "NI")) +
+  geom_text(aes(x = 110, y = column_means[3], label = "NNI")) +
+  geom_text(aes(x = 110, y = column_means[4], label = "RI")) +
   theme_classic() +
+  theme(legend.position="none") +
   labs(y = 'Time')
 
 df_long <- gather(df, key = "Condition", value = "Time", -Year, -points)

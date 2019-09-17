@@ -39,18 +39,18 @@ ggplot(df, aes(x = Condition, y = Time, color = Condition)) +
   geom_hline(yintercept = ga, linetype = "dotted") +
   theme_classic()
 
+df$ID <- as.factor(df$ID)
 mod <- aov(Time ~ Condition + Error(ID),
            data = df)
 summary(aov(Time ~ Condition + Error(ID),
             data = df))
 
-mod1 <- lm(data = df, Time ~ Condition)
-summary(mod1)
 
-mod2 <- lmer(data = df, Time ~ Condition + (1|Year) + (1|ID))
-summary( mod2)
-
+library(lme4)
+mod1 <- lmer(data = df, Time ~ Condition + (1|ID))
+mod2 <- lmer(data = df, Time ~ Condition + (1|ID) + (1|Year))
 anova(mod1, mod2)
+
 
 df_NI <- subset(df, Condition == "Naming_Int")
 m_NI <- mean(df_NI$Time)

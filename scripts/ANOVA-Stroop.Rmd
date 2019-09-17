@@ -1,0 +1,139 @@
+---
+  title: "Untitled"
+author: "Ethan Weed"
+date: "9/17/2019"
+output: html_document
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+
+
+
+# Load packages for data handling and plotting
+library(tidyverse)
+
+# clear global environment (get rid of any old variables that might be hangning around)
+rm(list = ls())
+
+# read in the data
+df <- read.csv("/Users/ethan/Documents/GitHub/ethanweed.github.io/r-tutorials/data/Stroop-raw-over-the-years.csv")
+
+# make a new dataframe with the same data in the "long" format.
+#df <- gather(df, key = "Condition", value = "Time", -Year)
+
+column_means <- colMeans(df)
+
+df$points <- seq(1:nrow(df))
+
+RNI <- ggplot(data = df, aes(x = points, y = Reading_NoInt)) +
+  geom_point() + 
+  theme_classic() +
+  geom_hline(yintercept = column_means[1]) +
+  ylim(0, 18)
+
+NI <- ggplot(data = df, aes(x = points, y = Naming_Int)) +
+  geom_point() + 
+  theme_classic() +
+  geom_hline(yintercept = column_means[2]) +
+  ylim(0, 18)
+
+NNI <- ggplot(data = df, aes(x = points, y = Naming_NoInt)) +
+  geom_point() + 
+  theme_classic() +
+  geom_hline(yintercept = column_means[3]) +
+  ylim(0, 18)
+              
+RI <- ggplot(data = df, aes(x = points, y = Reading_Int)) +
+  geom_point() + 
+  theme_classic() +
+  geom_hline(yintercept = column_means[4])+
+  ylim(0, 18)
+
+library(ggpubr)
+
+ggarrange(RI, RNI, NI, NNI, ncol = 2, nrow = 2)
+```
+
+
+
+```{r}
+
+
+
+
+df_long <- gather(df, key = "Condition", value = "Time", -Year, -points)
+df_long$Task <- ifelse(df_long$Condition == 'Reading_Int' | df_long$Condition == 'Reading_NoInt', "Reading", "Naming")
+df_long$Interference <- ifelse(df_long$Condition == 'Reading_Int' | df_long$Condition == 'Naming_Int', 'Interference', 'No_Interference')
+df_long$ID <- as.factor(df_long$points)
+
+CM <- aggregate(df_long$Time, list(df_long$Condition), mean)
+CM <- CM$x
+
+ggplot(data = df_long, aes(x = points, y = Time, color = Condition)) +
+  geom_point() + 
+  geom_hline(yintercept = CM[1], linetype = "dashed") +
+  geom_hline(yintercept = CM[2]) +
+  geom_hline(yintercept = CM[3], linetype = "dashed") +
+  geom_hline(yintercept = CM[4]) +
+  geom_label(label="NI", x = 40, y = CM[1], color = "black") +
+  geom_label(label="NNI", x = 60, y = CM[2], color = "black") +
+  geom_label(label="RI", x = 80, y = CM[3], color = "black") +
+  geom_label(label="RNI", x = 90, y = CM[4], color = "black") +
+  theme_classic()
+
+```
+  
+  
+  
+  
+```{r}  
+
+TASK <- aggregate(df_long$Time, list(df_long$Task), mean)
+TASK <- TASK$x
+
+
+INT <- aggregate(df_long$Time, list(df_long$Interference), mean)
+INT <- INT$x
+
+summary(aov(Time ~ Task  + Error(ID),
+            data = df_long))
+
+p1 <- ggplot(data = df_long, aes(x = points, y = Time, color = Task)) +
+  geom_point() + 
+  theme_classic() +
+  geom_hline(yintercept = TASK[1]) +
+  geom_hline(yintercept = TASK[2]) +
+  labs(title = "Main effect of Task")
+
+summary(aov(Time ~ Interference + Error(ID),
+            data = df_long))
+
+p2 <- ggplot(data = df_long, aes(x = points, y = Time, color = Interference)) +
+  geom_point() + 
+  theme_classic() +
+    geom_hline(yintercept = INT[1]) +
+  geom_hline(yintercept = INT[2]) +
+  labs(title = "Main effect of Interference")
+
+library(ggpubr)
+ggarrange(p1, p2, ncol = )
+
+summary(aov(Time ~ Task + Interference,
+            data = df_long))
+
+summary(aov(Time ~ Task + Interference + (Task*Interference),
+            data = df_long))
+
+library(lme4)
+summary(lmer(Time ~ Condition + (1|ID), data = df_long))
+
+```
+
+
+
+

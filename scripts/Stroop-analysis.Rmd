@@ -1,5 +1,11 @@
 rm(list = ls())
 
+
+```{r}
+
+
+
+
 df <- read.csv("/Users/ethan/Documents/GitHub/Stroop/Stroop-raw-over-the-years.csv")
 df$ID <- c(1:length(df$Year))
 
@@ -64,6 +70,9 @@ summary(mod1)
 rm(list = ls())
 
 library(tidyverse)
+
+```
+
 
 df <- read.csv("/Users/ethan/Documents/GitHub/ethanweed.github.io/r-tutorials/data/nettle_1998.csv", sep = ";")
 

@@ -47,6 +47,7 @@ ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
 
 Here is one solution for distinguishing between native and non-native speakers. Notice that you need to put a ```aes``` call in the call to ```geom_point()```. This is because the color only applies to the points, not to e.g. the boxplots.
 ```{r}
+df_long$Non.native.speaker. <- as.factor(df$Non.native.speaker.)
 
 ggplot(df_long, aes(x = Condition, y = Time)) +
   geom_boxplot() +

@@ -1,0 +1,34 @@
+---
+  title: "Stroop data 2019"
+author: "Ethan Weed"
+date: "9/17/2019"
+output: html_document
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+library(tidyverse)
+
+rm(list = ls())
+
+df <- read.csv("/Users/ethan/Google Drive/Teaching/2019_LaCoBra/experiments/Stroop task/Stroop_2019_a.csv", sep = ";")
+df$Non.native.speaker. <- ifelse(df$Non.native.speaker. == "x", 1, 0)
+
+
+df <- subset(df, df$Non.native.speaker. == 0)
+df$Participant.ID <- NULL
+df$Other.notes. <- NULL
+
+df <- rename(df, list("Reading..no.int." = "RNI", "Naming..int." = "NI", "Naming..no.int." = "NNI", "Reading..int." = "RI"))
+
+df_long <- gather(df, key = "Condition", value = "Time", -Non.native.speaker.)
+
+ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
+  geom_boxplot() +
+  geom_point()
+
+#upper whisker = largest observation less than or equal to upper hinge + 1.5 * IQR
+

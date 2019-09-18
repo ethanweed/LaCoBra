@@ -45,14 +45,89 @@ ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
 
 ```
 
+## Possible solution for question 2: Make a plot with separte plots for all years for which we have Stroop data
+If you don't already have them, you can get the data [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ethanweed/Stroop/blob/master/Stroop-raw-over-the-years.csv). You will need to unzip the download before you can work with the data.
+```{r echo = T, results = 'hide', message=FALSE, warning = F}
+rm(list = ls())
+library(tidyverse)
+library(ggpubr)
+df1 <- read.csv("/Users/ethan/Downloads/Stroop-raw-over-the-years.csv")
+df2 <- read.csv("/Users/ethan/Desktop/Stroop_2019_a.csv", sep = ";")
+df2 <- plyr::rename(df2, list("Reading..no.int." = "Reading_NoInt",
+                        "Naming..int." = "Naming_Int",
+                        "Naming..no.int." = "Naming_NoInt",
+                        "Reading..int." = "Reading_Int",
+                        "Non.native.speaker." = "NNS"))
+df2$Other.notes. <- NULL
+df2$NNS <- ifelse(df2$NNS == "x", 1, 0)
+
+df1 <- gather(df1, key = "Condition", value = "Time", -Year)
+df2 <- gather(subset(df2, NNS == 0), key = "Condition", value = "Time", -Participant.ID, -NNS)
+
+
+p1 <- ggplot(subset(df1, Year == 2015), aes(x = Condition, y = Time)) +
+  geom_boxplot() +
+  labs(title = "2015") +
+  coord_flip()
+  
+p2 <- ggplot(subset(df1, Year == 2016), aes(x = Condition, y = Time)) +
+  geom_boxplot() +
+  labs(title = "2016") +
+  coord_flip()
+
+p3 <- ggplot(subset(df1, Year == 2017), aes(x = Condition, y = Time)) +
+  geom_boxplot() +
+  labs(title = "2017") +
+  coord_flip()
+
+p4 <- ggplot(subset(df1, Year == 2018), aes(x = Condition, y = Time)) +
+  geom_boxplot() +
+  labs(title = "2018") +
+  coord_flip()
+
+p5 <- ggplot(df2, aes(x = Condition, y = Time)) +
+  geom_boxplot() +
+  labs(title = "2019") +
+  coord_flip()
+
+
+# install(cowplot)
+# install(magick)
+library(cowplot)
+library(magick)
+
+p6 <- ggdraw() + 
+  draw_image("https://upload.wikimedia.org/wikipedia/commons/3/3e/Stroop.jpg")
+
+
+p <- ggarrange(p1, p2, p3, p4, p5, p6, ncol = 2, nrow = 3)
+p
+```
+
+
+## Possible solution for question 3: Make a plot that compares native and non-native speakers on the 2019 Stroop data.
 Here is one solution for distinguishing between native and non-native speakers. Notice that you need to put a ```aes``` call in the call to ```geom_point()```. This is because the color only applies to the points, not to e.g. the boxplots.
 ```{r}
-df_long$Non.native.speaker. <- as.factor(df$Non.native.speaker.)
+library(tidyverse)
 
-ggplot(df_long, aes(x = Condition, y = Time)) +
+rm(list = ls())
+
+df <- read.csv("/Users/ethan/Desktop/Stroop_2019_a.csv", sep = ";")
+
+
+df$Other.notes. <- NULL
+df$Participant.ID <- NULL
+
+df$Non.native.speaker. <- ifelse(df$Non.native.speaker. == "x", 1, 0)
+
+df$Non.native.speaker. <- as.factor(df$Non.native.speaker.)
+df <- gather(df, key = "Condition", value = "Time", -Non.native.speaker.)
+
+ggplot(df, aes(x = Condition, y = Time)) +
   geom_boxplot() +
   geom_point(aes(x = Condition, y = Time, color = Non.native.speaker.)) +
-  theme_classic()
+  theme_classic() +
+  coord_flip()
 
 
 ```

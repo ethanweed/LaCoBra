@@ -45,7 +45,7 @@ ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
 
 ```
 
-## Possible solution for question 2: Make a plot with separte plots for all years for which we have Stroop data
+## Possible solution for question 2: Make a plot with separate plots for all years for which we have Stroop data
 If you don't already have them, you can get the data [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ethanweed/Stroop/blob/master/Stroop-raw-over-the-years.csv). You will need to unzip the download before you can work with the data.
 ```{r echo = T, results = 'hide', message=FALSE, warning = F}
 rm(list = ls())
@@ -90,6 +90,7 @@ p5 <- ggplot(df2, aes(x = Condition, y = Time)) +
   labs(title = "2019") +
   coord_flip()
 
+# and just for fun.....
 
 # install(cowplot)
 # install(magick)

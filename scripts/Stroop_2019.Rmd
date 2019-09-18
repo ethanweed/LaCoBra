@@ -1,34 +1,58 @@
 ---
-  title: "Stroop data 2019"
+title: "Stroop 2019"
 author: "Ethan Weed"
-date: "9/17/2019"
+date: "9/18/2019"
 output: html_document
 ---
-  
-  ```{r setup, include=FALSE}
+
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+You can download the 2019 Stroop data [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ethanweed/LaCoBra/blob/master/data/Stroop_2019_a.csv). 
 
+Start by making a new R script, so that you can save your work. Then, enter the following (you can copy and paste this entire block into RStudio. You will only need to change the path to your data).
+
+```{r echo = T, results = 'hide', message=FALSE, warning = F}
+
+# Load the resources in tidyverse. We will need these for e.g. using ggplot.
 library(tidyverse)
 
+# Remove everything from the workspace. That way you won't be tripped up by old data kicking around in your workspace.
 rm(list = ls())
 
-df <- read.csv("/Users/ethan/Google Drive/Teaching/2019_LaCoBra/experiments/Stroop task/Stroop_2019_a.csv", sep = ";")
+# Make a new dataframe with our data.
+# Change the path to where your *your* copy is located (probably the downloads folder).
+# If you got the data by clicking the link above, it will arrive on your computer in a zip file. You will need to unzip the zip file.
+# The file uses a semicolon instead of a comma to separate the columns, so we need use sep = ";" to indicate that
+# Use read.csv and *not* read_csv. They look similar, but they are not the same!!
+df <- read.csv("/Users/ethan/Desktop/Stroop_2019_a.csv", sep = ";")
+
+# remove unwanted columns.
+df$Other.notes. <- NULL
+df$Participant.ID <- NULL
+
+# fill out empty cells with 0's, if the participant is not a native Danish speaker
 df$Non.native.speaker. <- ifelse(df$Non.native.speaker. == "x", 1, 0)
 
-
-df <- subset(df, df$Non.native.speaker. == 0)
-df$Participant.ID <- NULL
-df$Other.notes. <- NULL
-
-df <- rename(df, list("Reading..no.int." = "RNI", "Naming..int." = "NI", "Naming..no.int." = "NNI", "Reading..int." = "RI"))
-
+# make a new dataframe with the data in long format, so that we can plot it.
 df_long <- gather(df, key = "Condition", value = "Time", -Non.native.speaker.)
 
 ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
   geom_boxplot() +
-  geom_point()
+  geom_point() +
+  theme_classic()
 
-#upper whisker = largest observation less than or equal to upper hinge + 1.5 * IQR
+```
+
+Here is one solution for distinguishing between native and non-native speakers. Notice that you need to put a ```aes``` call in the call to ```geom_point()```. This is because the color only applies to the points, not to e.g. the boxplots.
+```{r}
+
+ggplot(df_long, aes(x = Condition, y = Time)) +
+  geom_boxplot() +
+  geom_point(aes(x = Condition, y = Time, color = Non.native.speaker.)) +
+  theme_classic()
+
+
+```
 

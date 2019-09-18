@@ -111,7 +111,9 @@ p
 ```
 
 
-## Possible solution for question 3: Make a plot that compares native and non-native speakers on the 2019 Stroop data.
+## Solutions for question 3: Make a plot that compares native and non-native speakers on the 2019 Stroop data.
+
+### Solution 1
 Here is one solution for distinguishing between native and non-native speakers. Notice that you need to put a ```aes``` call in the call to ```geom_point()```. This is because the color only applies to the points, not to e.g. the boxplots.
 ```{r}
 library(tidyverse)
@@ -124,16 +126,58 @@ df <- read.csv("/Users/ethan/Desktop/Stroop_2019_a.csv", sep = ";")
 df$Other.notes. <- NULL
 df$Participant.ID <- NULL
 
-df$Non.native.speaker. <- ifelse(df$Non.native.speaker. == "x", 1, 0)
+df$Speaker <- as.factor(ifelse(df$Non.native.speaker. == "x", "Non-Native", "Native"))
+df$Non.native.speaker. <- NULL
 
-df$Non.native.speaker. <- as.factor(df$Non.native.speaker.)
-df <- gather(df, key = "Condition", value = "Time", -Non.native.speaker.)
+
+df <- gather(df, key = "Condition", value = "Time", -Speaker)
 
 ggplot(df, aes(x = Condition, y = Time)) +
   geom_boxplot() +
-  geom_point(aes(x = Condition, y = Time, color = Non.native.speaker.)) +
+  geom_point(aes(x = Condition, y = Time, color = Speaker)) +
   theme_classic() +
   coord_flip()
+
+
+```
+
+
+### Solution 2
+Use ```color``` to make separate boxplots for native and non-native speakers.  
+
+There are (at least) two different ways to write the ggplot syntax. Either will produce the same plot.
+```{r}
+library(tidyverse)
+library(ggpubr)
+
+rm(list = ls())
+
+df <- read.csv("/Users/ethan/Desktop/Stroop_2019_a.csv", sep = ";")
+
+
+df$Other.notes. <- NULL
+df$Participant.ID <- NULL
+
+df$Speaker <- as.factor(ifelse(df$Non.native.speaker. == "x", "Non-Native", "Native"))
+df$Non.native.speaker. <- NULL
+
+
+df <- gather(df, key = "Condition", value = "Time", -Speaker)
+
+# method 1
+p1 <- ggplot(df) +
+  geom_boxplot(aes(x = Condition, y = Time, color = Speaker))+
+  coord_flip() +
+  labs(title = "Method 1")
+
+# method 2
+p2 <- ggplot(df, aes(x = Condition, y = Time, color = Speaker))+
+  geom_boxplot() +
+  coord_flip() +
+  labs(title = "Method 2")
+
+
+ggarrange(p1, p2, ncol = 1, nrow = 2)
 
 
 ```

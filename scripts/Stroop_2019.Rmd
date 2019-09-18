@@ -68,26 +68,31 @@ df2 <- gather(subset(df2, NNS == 0), key = "Condition", value = "Time", -Partici
 p1 <- ggplot(subset(df1, Year == 2015), aes(x = Condition, y = Time)) +
   geom_boxplot() +
   labs(title = "2015") +
+  ylim(3,15) +
   coord_flip()
   
 p2 <- ggplot(subset(df1, Year == 2016), aes(x = Condition, y = Time)) +
   geom_boxplot() +
   labs(title = "2016") +
+  ylim(3,15) +
   coord_flip()
 
 p3 <- ggplot(subset(df1, Year == 2017), aes(x = Condition, y = Time)) +
   geom_boxplot() +
   labs(title = "2017") +
+  ylim(3,15) +
   coord_flip()
 
 p4 <- ggplot(subset(df1, Year == 2018), aes(x = Condition, y = Time)) +
   geom_boxplot() +
   labs(title = "2018") +
+  ylim(3,15) +
   coord_flip()
 
 p5 <- ggplot(df2, aes(x = Condition, y = Time)) +
   geom_boxplot() +
   labs(title = "2019") +
+  ylim(3,15) +
   coord_flip()
 
 # and just for fun.....

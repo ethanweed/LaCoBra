@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-You can download the 2019 Stroop data [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ethanweed/LaCoBra/blob/master/data/Stroop_2019_a.csv). 
+You can download the 2019 Stroop data here: kortlink.dk/22tcm
 
 Start by making a new R script, so that you can save your work. Then, enter the following (you can copy and paste this entire block into RStudio. You will only need to change the path to your data).
 
@@ -46,7 +46,8 @@ ggplot(df_long, aes(x = Condition, y = Time, color = Condition)) +
 ```
 
 ## Possible solution for question 2: Make a plot with separate plots for all years for which we have Stroop data
-If you don't already have them, you can get the data [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ethanweed/Stroop/blob/master/Stroop-raw-over-the-years.csv). You will need to unzip the download before you can work with the data.
+If you don't already have them, you can get the data here: kortlink.dk/22tcp. 
+You will need to unzip the download before you can work with the data.
 ```{r echo = T, results = 'hide', message=FALSE, warning = F}
 rm(list = ls())
 library(tidyverse)

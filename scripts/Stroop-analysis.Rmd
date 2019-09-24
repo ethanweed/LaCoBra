@@ -3,7 +3,7 @@ rm(list = ls())
 
 ```{r}
 
-
+library(tidyverse)
 
 
 df <- read.csv("/Users/ethan/Documents/GitHub/Stroop/Stroop-raw-over-the-years.csv")

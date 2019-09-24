@@ -1,15 +1,26 @@
 ---
-  title: "Untitled"
+title: "Modelling the Stroop Data"
 author: "Ethan Weed"
 date: "9/17/2019"
-output: html_document
+header-includes:
+   - \usepackage{bbm}
+output: 
+  html_document:
+    df_print: default
+    code_folding: hide
+    number_sections: no
+    self_contained: yes
+    toc: no
+    toc_depth: 3
+    toc_float:
+      collapsed: no
 ---
   
-  ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r}
+```{r echo = T, results = 'false', message=FALSE, warning = F}
 
 
 
@@ -59,9 +70,104 @@ library(ggpubr)
 ggarrange(RI, RNI, NI, NNI, ncol = 2, nrow = 2)
 ```
 
+The variation between the individual data points and the model (the mean) can be described as the standard deviation.
+ $$ s = \sqrt{\frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 } $$
+In this equation, $\textstyle\{x_1,\,x_2,\,\ldots,\,x_N\}$ are the observed values of the sample items, $\textstyle\bar{x}$ is the mean value of these observations, and *N* is the number of observations in the sample.
 
+
+## "t-test" 
+
+Let's just concetrate on conditions with interference. Is there a significant difference between **Reading** and **Naming**?
 
 ```{r}
+ggarrange(RI, NI, ncol = 2)
+```
+
+
+The data from the two conditions look different. But are they really? Put differently: if we model these data as being drawn from two different distributions, does this two-distribution model better describe the data than the alternative, that is, that all the data points are simply drawn from the same distribution?
+
+
+If we look at the distribution of all the **Reading with Interference** and **Naming with Interference** data points, it looks like this:
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+library(ggpubr)
+df_long <- gather(df, key = "Condition", value = "Time", -Year)
+df_int <- subset(df_long, Condition == "Reading_Int" | Condition == "Naming_Int")
+df_int$Condition <- as.factor(df_int$Condition)
+
+p1 <- ggplot(df_int, aes(Time)) +
+  geom_density() +
+  theme_classic() +
+  labs(title = "Single distribution model")
+
+p1
+
+```
+
+
+How would these same data look, if we modelled them as coming from two different distributions?
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+# make individual plots for different conditions
+p2 <- ggplot(df_int, aes(Time, fill = Condition)) +
+  geom_density(alpha = 0.5) +
+  theme_classic() +
+  labs(title = "Two-distribution model")
+p2
+```
+
+There is some overlap in data, but the two distributions do appear to be distinct. It looks as if the 2-condition model does fit the data relatively well.
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+
+ggarrange(p1, p2, ncol = 2)
+
+```
+
+This comparison of distributions can be formalized as the "t-test". In this case, we use a "paired t-test", since the same participants were tested in both conditions. Other t-tests include the *independent samples* t-test for testing e.g. between two different groups of participants, and the *single-sample* t-test, for testing whether a sample mean is significantly different from a specified number, e.g. different than zero.
+
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+library(pander)
+Reading <- subset(df_int$Time, df_int$Condition == "Reading_Int")
+Naming <- subset(df_int$Time, df_int$Condition == "Naming_Int")
+t <- t.test(Reading, Naming, paired = TRUE)
+pander(t)
+```
+
+We should be able to random samples from the same overall distribution and see the same pattern most of the time. Here are 10 random re-samples from the same data.
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+#df[sample(nrow(df), 3), ]
+for (i in 1:10) {
+  d <- df_int[sample(nrow(df_int), 100), ]
+  print(ggplot(d, aes(Time, fill = Condition)) +
+  geom_density(alpha = 0.5) +
+  theme_classic()) 
+}
+
+
+```
+
+## "ANOVA"
+
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+
+# make individual plots for different conditions
+df_long$Condition <- as.factor(df_long$Condition)
+
+
+p1 <- ggplot(df_long, aes(Time)) +
+  geom_density() +
+  theme_classic() +
+  labs(title = "Distribution of Data for All Conditions")
+
+p2 <- ggplot(df_long, aes(Time, fill = Condition)) +
+  geom_density(alpha = 0.5) +
+  theme_classic() +
+  labs(title = "Distribution of Data Modelled by Condition")
+
+ggarrange(p1, p2, ncol = 2)
+
+```
+
+
+```{r echo = T, results = 'false', message=FALSE, warning = F}
 
 
 
@@ -91,7 +197,7 @@ ggplot(data = df_long, aes(x = points, y = Time, color = Condition)) +
   
   
   
-```{r}  
+```{r echo = T, results = 'false', message=FALSE, warning = F}  
 
 TASK <- aggregate(df_long$Time, list(df_long$Task), mean)
 TASK <- TASK$x

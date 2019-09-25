@@ -71,7 +71,7 @@ ggarrange(RI, RNI, NI, NNI, ncol = 2, nrow = 2)
 ```
 
 The variation between the individual data points and the model (the mean) can be described as the standard deviation.
- $$ s = \sqrt{\frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 } $$
+ $$ s = \sqrt{\frac{\sum_{i=1}^N (x_i - \bar{x})^2}{N-1} } $$
 In this equation, $\textstyle\{x_1,\,x_2,\,\ldots,\,x_N\}$ are the observed values of the sample items, $\textstyle\bar{x}$ is the mean value of these observations, and *N* is the number of observations in the sample.
 
 
@@ -121,7 +121,7 @@ ggarrange(p1, p2, ncol = 2)
 
 ```
 
-This comparison of distributions can be formalized as the "t-test". In this case, we use a "paired t-test", since the same participants were tested in both conditions. Other t-tests include the *independent samples* t-test for testing e.g. between two different groups of participants, and the *single-sample* t-test, for testing whether a sample mean is significantly different from a specified number, e.g. different than zero.
+This comparison of distributions can be formalized as the "t-test". In this case, we use a *paired t-test*, since the same participants were tested in both conditions. Other t-tests include the *independent samples* t-test for testing e.g. between two different groups of participants, and the *single-sample* t-test, for testing whether a sample mean is significantly different from a specified number, e.g. different than zero.
 
 ```{r echo = T, results = 'false', message=FALSE, warning = F}
 library(pander)
@@ -131,10 +131,11 @@ t <- t.test(Reading, Naming, paired = TRUE)
 pander(t)
 ```
 
-We should be able to random samples from the same overall distribution and see the same pattern most of the time. Here are 10 random re-samples from the same data.
+We should be able to take random samples from the same overall distribution and see the same pattern most of the time. Here are 10 random re-samples of 100 data points each from total pool of data.
 ```{r echo = T, results = 'false', message=FALSE, warning = F}
-#df[sample(nrow(df), 3), ]
+set.seed(42)
 for (i in 1:10) {
+  print(paste0("Sample ", i))
   d <- df_int[sample(nrow(df_int), 100), ]
   print(ggplot(d, aes(Time, fill = Condition)) +
   geom_density(alpha = 0.5) +
@@ -150,20 +151,27 @@ for (i in 1:10) {
 
 # make individual plots for different conditions
 df_long$Condition <- as.factor(df_long$Condition)
+df_long <- subset(df_long, Condition != "points")
 
 
 p1 <- ggplot(df_long, aes(Time)) +
   geom_density() +
   theme_classic() +
-  labs(title = "Distribution of Data for All Conditions")
+  labs(title = "All Data")
 
 p2 <- ggplot(df_long, aes(Time, fill = Condition)) +
   geom_density(alpha = 0.5) +
   theme_classic() +
-  labs(title = "Distribution of Data Modelled by Condition")
+  labs(title = "Data Modelled by Condition")
 
-ggarrange(p1, p2, ncol = 2)
+ggarrange(p1, p2, ncol = 1, nrow = 2)
 
+```
+
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+
+p3 <- p2 + coord_flip() 
+p3
 ```
 
 
@@ -180,7 +188,7 @@ df_long$ID <- as.factor(df_long$points)
 CM <- aggregate(df_long$Time, list(df_long$Condition), mean)
 CM <- CM$x
 
-ggplot(data = df_long, aes(x = points, y = Time, color = Condition)) +
+p4 <- ggplot(data = df_long, aes(x = points, y = Time, color = Condition)) +
   geom_point() + 
   geom_hline(yintercept = CM[1], linetype = "dashed") +
   geom_hline(yintercept = CM[2]) +
@@ -194,7 +202,14 @@ ggplot(data = df_long, aes(x = points, y = Time, color = Condition)) +
 
 ```
   
-  
+
+```{r echo = T, results = 'false', message=FALSE, warning = F}
+
+p4 <- p4 + labs(title = "Data Modelled by Condition")
+ggarrange(p3, p4, ncol = 2)
+
+```
+
   
   
 ```{r echo = T, results = 'false', message=FALSE, warning = F}  

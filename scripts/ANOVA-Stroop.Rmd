@@ -168,14 +168,9 @@ ggarrange(p1, p2, ncol = 1, nrow = 2)
 
 ```
 
-```{r echo = T, results = 'false', message=FALSE, warning = F}
-
-p3 <- p2 + coord_flip() 
-p3
-```
 
 
-```{r echo = T, results = 'false', message=FALSE, warning = F}
+```{r echo = F, results = 'false', message=FALSE, warning = F}
 
 
 
@@ -184,6 +179,7 @@ df_long <- gather(df, key = "Condition", value = "Time", -Year, -points)
 df_long$Task <- ifelse(df_long$Condition == 'Reading_Int' | df_long$Condition == 'Reading_NoInt', "Reading", "Naming")
 df_long$Interference <- ifelse(df_long$Condition == 'Reading_Int' | df_long$Condition == 'Naming_Int', 'Interference', 'No_Interference')
 df_long$ID <- as.factor(df_long$points)
+df_long$measurements <- seq(1:nrow(df_long))
 
 CM <- aggregate(df_long$Time, list(df_long$Condition), mean)
 CM <- CM$x
@@ -199,12 +195,16 @@ p4 <- ggplot(data = df_long, aes(x = points, y = Time, color = Condition)) +
   geom_label(label="RI", x = 80, y = CM[3], color = "black") +
   geom_label(label="RNI", x = 90, y = CM[4], color = "black") +
   theme_classic()
-
+p4
 ```
   
 
-```{r echo = T, results = 'false', message=FALSE, warning = F}
-
+```{r echo = F, results = 'false', message=FALSE, warning = F}
+p3 <- ggplot(df_long, aes(Time, fill = Condition)) +
+  geom_density(alpha = 0.5) +
+  theme_classic() +
+  coord_flip() +
+  labs(title = "Data Modelled by Condition")
 p4 <- p4 + labs(title = "Data Modelled by Condition")
 ggarrange(p3, p4, ncol = 2)
 
@@ -214,46 +214,83 @@ ggarrange(p3, p4, ncol = 2)
   
 ```{r echo = T, results = 'false', message=FALSE, warning = F}  
 
-TASK <- aggregate(df_long$Time, list(df_long$Task), mean)
-TASK <- TASK$x
+# Find mean of all data points
+GrandMean <- mean(df_long$Time)
+
+# Find means for each condition
+meanNI <- mean(df$Naming_Int)
+meanRI <- mean(df$Reading_Int)
+meanNNI <- mean(df$Naming_NoInt) 
+meanRNI <- mean(df$Reading_NoInt)
+
+# Get x-axis values for each data point, grouped by condition
+xNI <- subset(df_long$measurements, df_long$Condition == "Naming_Int")
+xRI <- subset(df_long$measurements, df_long$Condition == "Reading_Int")
+xNNI <- subset(df_long$measurements, df_long$Condition == "Naming_NoInt")
+xRNI <- subset(df_long$measurements, df_long$Condition == "Reading_NoInt")
 
 
-INT <- aggregate(df_long$Time, list(df_long$Interference), mean)
-INT <- INT$x
+#yNI <- subset(df_long$Time, df_long$Condition == "Naming_Int") 
+#yRI <- subset(df_long$Time, df_long$Condition == "Reading_Int")
+#yNNI <- subset(df_long$Time, df_long$Condition == "Naming_NoInt")
+#yRNI <- subset(df_long$Time, df_long$Condition == "Reading_NoInt")
 
-summary(aov(Time ~ Task  + Error(ID),
-            data = df_long))
+# Make a vector of enpoints for the lines from residuals to the model means
+model_means <- c(rep(meanRNI, length(xRNI)), rep(meanNI, length(xNI)), rep(meanNNI, length(xNNI)), rep(meanRI, length(xRI)))
 
-p1 <- ggplot(data = df_long, aes(x = points, y = Time, color = Task)) +
-  geom_point() + 
+# Plot the total sums of squares
+p_TSS <- ggplot(df_long, aes(x = measurements, y = Time, color = Condition)) +
+  geom_point() +
+  geom_segment(aes(xend = measurements, yend = GrandMean), alpha = 0.2) +
+  geom_hline(yintercept = GrandMean, linetype="dashed") +
+  ylim(0,18) +
   theme_classic() +
-  geom_hline(yintercept = TASK[1]) +
-  geom_hline(yintercept = TASK[2]) +
-  labs(title = "Main effect of Task")
+  theme(legend.position="none") +
+  labs(title = "Total Sums of Squares")
 
-summary(aov(Time ~ Interference + Error(ID),
-            data = df_long))
-
-p2 <- ggplot(data = df_long, aes(x = points, y = Time, color = Interference)) +
-  geom_point() + 
+# Plot the residual sums of squares
+p_RSS <- ggplot(df_long, aes(x = measurements, y = Time, color = Condition)) +
+  geom_point() +
+  geom_segment(aes(xend=measurements, yend=model_means), alpha = 0.2) +
+  geom_segment(aes(x=min(xNI),xend=max(xNI),y= meanNI,yend=meanNI),colour="black") +
+  geom_segment(aes(x=min(xRI),xend=max(xRI),y= meanRI,yend=meanRI),colour="black") +
+  geom_segment(aes(x=min(xNNI),xend=max(xNNI),y= meanNNI,yend=meanNNI),colour="black") +
+  geom_segment(aes(x=min(xRNI),xend=max(xRNI),y= meanRNI,yend=meanRNI),colour="black") +
+  ylim(0,18) +
   theme_classic() +
-    geom_hline(yintercept = INT[1]) +
-  geom_hline(yintercept = INT[2]) +
-  labs(title = "Main effect of Interference")
+  theme(legend.position="none") +
+  labs(title = "Residual Sums of Squares")
 
-library(ggpubr)
-ggarrange(p1, p2, ncol = )
+# Plot the model sums of squares
+p_MSS <- ggplot(df_long, aes(x = measurements, y = Time, color = Condition)) +
+  geom_segment(aes(x=min(xNI),xend=max(xNI),y= meanNI,yend=meanNI),colour="black") +
+  geom_segment(aes(x=min(xRI),xend=max(xRI),y= meanRI,yend=meanRI),colour="black") +
+  geom_segment(aes(x=min(xNNI),xend=max(xNNI),y= meanNNI,yend=meanNNI),colour="black") +
+  geom_segment(aes(x=min(xRNI),xend=max(xRNI),y= meanRNI,yend=meanRNI),colour="black") +
+  geom_hline(yintercept = GrandMean, linetype="dashed") +
+  geom_segment(aes(x=median(xNI), xend = median(xNI),y = meanNI, yend = GrandMean)) +
+  geom_segment(aes(x=median(xRI), xend = median(xRI),y = meanRI, yend = GrandMean)) +
+  geom_segment(aes(x=median(xNNI), xend = median(xNNI),y = meanNNI, yend = GrandMean)) +
+  geom_segment(aes(x=median(xRNI), xend = median(xRNI),y = meanRNI, yend = GrandMean)) +
+  ylim(0,18) +
+  theme_classic() +
+  theme(legend.position="none") +
+  labs(title = "Model Sums of Squares")
 
-summary(aov(Time ~ Task + Interference,
-            data = df_long))
+# Make a three-panel plot
+ggarrange(p_TSS, p_RSS, p_MSS, ncol = 3)
 
-summary(aov(Time ~ Task + Interference + (Task*Interference),
-            data = df_long))
+# calculate ANOVA
+fullmodel <- aov(Time ~ Task + Interference + (Task*Interference),
+            data = df_long)
+pander(fullmodel)
 
-library(lme4)
-summary(lmer(Time ~ Condition + (1|ID), data = df_long))
 
 ```
+
+The F-value is the "Mean Square" of the model, dvided by the "Mean Square" of the residuals:
+$F=\frac{MS_{model}}{MS_{residual}}$
+
 
 
 

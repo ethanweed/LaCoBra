@@ -131,6 +131,7 @@ t <- t.test(Reading, Naming, paired = TRUE)
 pander(t)
 ```
 
+
 We should be able to take random samples from the same overall distribution and see the same pattern most of the time. Here are 10 random re-samples of 100 data points each from total pool of data.
 ```{r echo = T, results = 'false', message=FALSE, warning = F}
 set.seed(42)
@@ -280,18 +281,48 @@ p_MSS <- ggplot(df_long, aes(x = measurements, y = Time, color = Condition)) +
 # Make a three-panel plot
 ggarrange(p_TSS, p_RSS, p_MSS, ncol = 3)
 
-# calculate ANOVA
-fullmodel <- aov(Time ~ Task + Interference + (Task*Interference),
-            data = df_long)
-pander(fullmodel)
-
-
 ```
 
-The F-value is the "Mean Square" of the model, dvided by the "Mean Square" of the residuals:
+
+The F-value, the critical statistic in the table below, is the "Mean Square" of the model, dvided by the "Mean Square" of the residuals:
 $F=\frac{MS_{model}}{MS_{residual}}$
 
 
+
+```{r echo = T, results = 'false', message=FALSE, warning = F} 
+# calculate ANOVA
+library(lmerTest)
+library(psycho)
+library(pander)
+
+# Define our model. Here, we are predicting Time as modeled by Task, Interference, and the interaction of Task and Interference. We are modelling ID as a "random effect".
+mod <- lmer(Time ~ Task + Interference + Task*Interference + (1|ID), data=df_long)
+ans <- anova(mod)
+```
+
+```{r}
+# Display the ANOVA results in a nice table
+pander(ans)
+```
+
+
+```{r}
+# Print text that we can copy and paste into our report
+res <- analyze(ans)
+print(res)
+```
+
+```{r}
+# Display Estimates for Conditions
+mod_means <- get_means(mod)
+pander(mod_means)
+```
+
+```{r}
+# Calculate post-hoc contrasts (Tukey)
+post_hoc <- get_contrasts(mod)
+pander(post_hoc)
+```
 
 
 

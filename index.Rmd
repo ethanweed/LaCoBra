@@ -8,3 +8,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Welcome to Language, Cognition and the Brain!
+
+Here are some resources for the course:
+
+[Getting started with plotting in R](https://ethanweed.github.io/r-tutorials/index.html)
+
+
+[t-test and ANOVA conceptual introduction](scripts/ANOVA-Stroop.html)

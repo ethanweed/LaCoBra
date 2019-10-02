@@ -292,37 +292,40 @@ $F=\frac{MS_{model}}{MS_{residual}}$
 ```{r echo = T, results = 'false', message=FALSE, warning = F} 
 # calculate ANOVA
 library(lmerTest)
-library(psycho)
-library(pander)
 
 # Define our model. Here, we are predicting Time as modeled by Task, Interference, and the interaction of Task and Interference. We are modelling ID as a "random effect".
 mod <- lmer(Time ~ Task + Interference + Task*Interference + (1|ID), data=df_long)
 ans <- anova(mod)
 ```
 
-```{r}
+### Display the ANOVA results in a nice table
+```{r echo = T, results = 'false', message=FALSE, warning = F}
 # Display the ANOVA results in a nice table
+library(pander)
 pander(ans)
 ```
 
-
-```{r}
+### Print text that we can copy and paste into our report
+```{r echo = T, results = 'false', message=FALSE, warning = F}
 # Print text that we can copy and paste into our report
+library(psycho)
 res <- analyze(ans)
 print(res)
 ```
 
-```{r}
+### Display Estimates for Conditions
+```{r echo = T, results = 'false', message=FALSE, warning = F}
 # Display Estimates for Conditions
+library(psycho)
+library(pander)
 mod_means <- get_means(mod)
 pander(mod_means)
 ```
 
-```{r}
+### Calculate post-hoc contrasts (Tukey)
+```{r echo = T, results = 'false', message=FALSE, warning = F}
 # Calculate post-hoc contrasts (Tukey)
 post_hoc <- get_contrasts(mod)
-pander(post_hoc)
+pander(post_hoc[,c(1,3:6)])
 ```
-
-
 

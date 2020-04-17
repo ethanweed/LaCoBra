@@ -1,15 +1,21 @@
-# Introduction
+---
+title: 'Language, Cognition, and the Brain'  
+subtitle: 'An Introductory Course in Psycholinguistics at Aarhus University'  
+author: 'Ethan Weed'
+date: "r format(Sys.time(), '%d %B, %Y')"
+---
 
 <!--chapter:end:index.Rmd-->
 
-# What is Language?
+# Introduction
+
+## What is Language?
+
+What is language? This is one of those questions that seems like it has an easy and obvious answer, but like most questions, the more I think about it, the harder it becomes to give a single, satisfactory answer. Language is something we use every day, so of course we know what it is. It's how we communicate with each other. Then again, it is not the **only** way we communicate with each other. If I go to the supermarket, and another shopper and I move to give space to each other in the aisle, we are intentionally communicating information about how we can move our bodies and shopping carts to allow us both to get the items we want from the shelves. But this doesn't really seem like an example of language. If the same fellow shopper and I misjudge each other's intentions, and move the wrong way, and smile to each other, this is also communication, but it still doesn't feel like language. You can easily think of other examples of humans communicating with other humans in ways that we wouldn't normally call language: music, painting, photography, dance...
 
 
-fsafa
-sdfsadgf
-sdfgdsfsdf
 
-<!--chapter:end:01_What-is-language.Rmd-->
+<!--chapter:end:01_Introduction.Rmd-->
 
 # Classic Models of Aphasia
 

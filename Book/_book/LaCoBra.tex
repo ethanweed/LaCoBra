@@ -1,0 +1,191 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdftitle={Language, Cognition, and the Brain},
+            pdfauthor={Ethan Weed},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+
+\title{Language, Cognition, and the Brain}
+\providecommand{\subtitle}[1]{}
+\subtitle{An Introductory Course in Psycholinguistics at Aarhus University}
+\author{Ethan Weed}
+\date{17 April, 2020}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\section{Introduction}\label{introduction}
+
+\subsection{What is Language?}\label{what-is-language}
+
+What is language? This is one of those questions that seems like it has
+an easy and obvious answer, but like most questions, the more I think
+about it, the harder it becomes to give a single, satisfactory answer.
+Language is something we use every day, so of course we know what it is.
+It's how we communicate with each other. Then again, it is not the
+\emph{only} way we communicate with each other. If I go to the
+supermarket, and another shopper and I move to give space to each other
+in the aisle, we are intentionally communicating information about how
+we can move our bodies and shopping carts to allow us both to get the
+items we want from the shelves. But this doesn't really seem like an
+example of language. If the same fellow shopper and I misjudge each
+other's intentions, and move the wrong way, and smile to each other,
+this is also communication, but it still doesn't feel like language. You
+can easily think of other examples of humans communicating with other
+humans in ways that we wouldn't normally call language: music, painting,
+photography, dance\ldots{}
+
+\section{Classic Models of Aphasia}\label{classic-models-of-aphasia}
+
+\section{Primary progressive aphasia}\label{primary-progressive-aphasia}
+
+\section{Speech perception and the dual-stream
+model}\label{speech-perception-and-the-dual-stream-model}
+
+\section{More on Speech Perception and the Dual Stream
+Model}\label{more-on-speech-perception-and-the-dual-stream-model}
+
+\section{Speech Production}\label{speech-production}
+
+\section{Prosody}\label{prosody}
+
+\section{Word Meaning}\label{word-meaning}
+
+\section{Action Verbs}\label{action-verbs}
+
+\section{Reading and Spelling}\label{reading-and-spelling}
+
+\section{Developmental Dyslexia}\label{developmental-dyslexia}
+
+\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder}
+
+\section{Introduction}\label{introduction-1}
+
+\subsection{What is Language?}\label{what-is-language-1}
+
+What is language? This is one of those questions that seems like it has
+an easy and obvious answer, but like most questions, the more I think
+about it, the harder it becomes to give a single, satisfactory answer.
+Language is something we use every day, so of course we know what it is.
+It's how we communicate with each other. Then again, it is not the
+\textbf{only} way we communicate with each other. If I go to the
+supermarket, and another shopper and I move to give space to each other
+in the aisle, we are intentionally communicating information about how
+we can move our bodies and shopping carts to allow us both to get the
+items we want from the shelves. But this doesn't really seem like an
+example of language. If the same fellow shopper and I misjudge each
+other's intentions, and move the wrong way, and smile to each other,
+this is also communication, but it still doesn't feel like language. You
+can easily think of other examples of humans communicating with other
+humans in ways that we wouldn't normally call language: music, painting,
+photography, dance\ldots{}
+
+\section{Classic Models of Aphasia}\label{classic-models-of-aphasia-1}
+
+\section{Primary progressive
+aphasia}\label{primary-progressive-aphasia-1}
+
+\section{Speech perception and the dual-stream
+model}\label{speech-perception-and-the-dual-stream-model-1}
+
+\section{More on Speech Perception and the Dual Stream
+Model}\label{more-on-speech-perception-and-the-dual-stream-model-1}
+
+\section{Speech Production}\label{speech-production-1}
+
+\section{Prosody}\label{prosody-1}
+
+\section{Word Meaning}\label{word-meaning-1}
+
+\section{Action Verbs}\label{action-verbs-1}
+
+\section{Reading and Spelling}\label{reading-and-spelling-1}
+
+\section{Developmental Dyslexia}\label{developmental-dyslexia-1}
+
+\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder-1}
+
+\end{document}

@@ -1,3 +1,6 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
 \documentclass[]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -6,12 +9,9 @@
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
+  \usepackage{unicode-math}
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
@@ -21,8 +21,13 @@
 \usepackage[]{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
-\usepackage[unicode=true]{hyperref}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
 \hypersetup{
             pdftitle={Language, Cognition, and the Brain},
             pdfauthor={Ethan Weed},
@@ -30,11 +35,9 @@
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage[margin=1in]{geometry}
-\usepackage{natbib}
-\bibliographystyle{plainnat}
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -44,12 +47,6 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -83,10 +80,12 @@
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
 
 \title{Language, Cognition, and the Brain}
 \providecommand{\subtitle}[1]{}
-\subtitle{An Introductory Course in Psycholinguistics at Aarhus University}
+\subtitle{An Introduction to Psycholinguistics at Aarhus University}
 \author{Ethan Weed}
 \date{17 April, 2020}
 
@@ -97,95 +96,55 @@
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
-\section{Introduction}\label{introduction}
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
-\subsection{What is Language?}\label{what-is-language}
+\hypertarget{what-is-language}{%
+\subsection{What is Language?}\label{what-is-language}}
 
-What is language? This is one of those questions that seems like it has
-an easy and obvious answer, but like most questions, the more I think
-about it, the harder it becomes to give a single, satisfactory answer.
-Language is something we use every day, so of course we know what it is.
-It's how we communicate with each other. Then again, it is not the
-\emph{only} way we communicate with each other. If I go to the
-supermarket, and another shopper and I move to give space to each other
-in the aisle, we are intentionally communicating information about how
-we can move our bodies and shopping carts to allow us both to get the
-items we want from the shelves. But this doesn't really seem like an
-example of language. If the same fellow shopper and I misjudge each
-other's intentions, and move the wrong way, and smile to each other,
-this is also communication, but it still doesn't feel like language. You
-can easily think of other examples of humans communicating with other
-humans in ways that we wouldn't normally call language: music, painting,
-photography, dance\ldots{}
+What is language? This is one of those questions that seems like it has an easy and obvious answer, but like most questions, the more I think about it, the harder it becomes to give a single, satisfactory answer. Language is something we use every day, so of course we know what it is. It's how we communicate with each other. Then again, it is not the \emph{only} way we communicate with each other. If I go to the supermarket, and another shopper and I move to give space to each other in the aisle, we are intentionally communicating information about how we can move our bodies and shopping carts to allow us both to get the items we want from the shelves. But this doesn't really seem like an example of language. If the same fellow shopper and I misjudge each other's intentions, and move the wrong way, and smile to each other, this is also communication, but it still doesn't feel like language.
 
-\section{Classic Models of Aphasia}\label{classic-models-of-aphasia}
+You can easily think of other examples of humans communicating with other humans in ways that we wouldn't normally call language: music, painting, photography, dance. If we agree that these are forms of communication, and also agree that they aren't examples of language, then we must be applying some sort of internal categorical filter that can discriminate linguistic behavior from non-linguistic behavior. We have some sort of internal definition of language that allows us to say that giving a speech, holding a conversation in sign-language, writing an email, reading a novel, and asking a question in class are examples of linguistic behavior, but smiling, raising eyebrows, or making a rude gesture are not.
 
-\section{Primary progressive aphasia}\label{primary-progressive-aphasia}
+Then again, although gestures and facial expressions may not exactly be language, they do often accompany linguistic expression, and can often either strengthen or completely negate the sentiment being expressed linguistically. So even those these activities may not examples of linguistic behavior, they are often at least \emph{paralinguistic}.
 
-\section{Speech perception and the dual-stream
-model}\label{speech-perception-and-the-dual-stream-model}
+Thinking about whether animals can be said to have language can be a very useful way to approach the question of what language is. There is no question that other animals than humans have systems for communicating with each other, and even with humans. My cats have no difficulty communicating to me when they are hungry, and it is easy to see when a dog wants you throw a ball for her to catch. Bees use complex patterns of dance to communicate exact spatial information to each other. Maybe we should include bee dance in our category of linguistic behavior? \citet{hockett1960origin} enumerate a list of criteria that a system should meet to be considered a language, and consider whether or not bee dance meets these criteria. You may or may not agree with their conclusions. Regardless of where we come down on whether bee dance, dog tail-wagging, or bonobo signing counts as language or not, thinking about these questions forces us to refine our definitions of what language is.
 
-\section{More on Speech Perception and the Dual Stream
-Model}\label{more-on-speech-perception-and-the-dual-stream-model}
+So what is language? We all have an intuitive understanding of what language is, but it is difficult to pin down an exact definition. I have a PhD in Linguistics, and I'm not even sure what language is. Still, it is good to ask ourselves these difficult questions every now and then, maybe once a year. Biologists can't spend all their time asking themselves what life is; they'd never get anything done. In the same way, linguists need to just assume that they basically know what language is, so they can get on the with business of studying it. But every now and then, asking what ``what \emph{is}'' this thing that I study, anyway?" brings a richness to our studies that is invaluable, and imbues the daily minutiae of the practice of research with a deeper meaning.
 
-\section{Speech Production}\label{speech-production}
+\hypertarget{classic-models-of-aphasia}{%
+\section{Classic Models of Aphasia}\label{classic-models-of-aphasia}}
 
-\section{Prosody}\label{prosody}
+\hypertarget{primary-progressive-aphasia}{%
+\section{Primary progressive aphasia}\label{primary-progressive-aphasia}}
 
-\section{Word Meaning}\label{word-meaning}
+\hypertarget{speech-perception-and-the-dual-stream-model}{%
+\section{Speech perception and the dual-stream model}\label{speech-perception-and-the-dual-stream-model}}
 
-\section{Action Verbs}\label{action-verbs}
+\hypertarget{more-on-speech-perception-and-the-dual-stream-model}{%
+\section{More on Speech Perception and the Dual Stream Model}\label{more-on-speech-perception-and-the-dual-stream-model}}
 
-\section{Reading and Spelling}\label{reading-and-spelling}
+\hypertarget{speech-production}{%
+\section{Speech Production}\label{speech-production}}
 
-\section{Developmental Dyslexia}\label{developmental-dyslexia}
+\hypertarget{prosody}{%
+\section{Prosody}\label{prosody}}
 
-\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder}
+\hypertarget{word-meaning}{%
+\section{Word Meaning}\label{word-meaning}}
 
-\section{Introduction}\label{introduction-1}
+\hypertarget{action-verbs}{%
+\section{Action Verbs}\label{action-verbs}}
 
-\subsection{What is Language?}\label{what-is-language-1}
+\hypertarget{reading-and-spelling}{%
+\section{Reading and Spelling}\label{reading-and-spelling}}
 
-What is language? This is one of those questions that seems like it has
-an easy and obvious answer, but like most questions, the more I think
-about it, the harder it becomes to give a single, satisfactory answer.
-Language is something we use every day, so of course we know what it is.
-It's how we communicate with each other. Then again, it is not the
-\textbf{only} way we communicate with each other. If I go to the
-supermarket, and another shopper and I move to give space to each other
-in the aisle, we are intentionally communicating information about how
-we can move our bodies and shopping carts to allow us both to get the
-items we want from the shelves. But this doesn't really seem like an
-example of language. If the same fellow shopper and I misjudge each
-other's intentions, and move the wrong way, and smile to each other,
-this is also communication, but it still doesn't feel like language. You
-can easily think of other examples of humans communicating with other
-humans in ways that we wouldn't normally call language: music, painting,
-photography, dance\ldots{}
+\hypertarget{developmental-dyslexia}{%
+\section{Developmental Dyslexia}\label{developmental-dyslexia}}
 
-\section{Classic Models of Aphasia}\label{classic-models-of-aphasia-1}
+\hypertarget{right-hemisphere-disorder}{%
+\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder}}
 
-\section{Primary progressive
-aphasia}\label{primary-progressive-aphasia-1}
-
-\section{Speech perception and the dual-stream
-model}\label{speech-perception-and-the-dual-stream-model-1}
-
-\section{More on Speech Perception and the Dual Stream
-Model}\label{more-on-speech-perception-and-the-dual-stream-model-1}
-
-\section{Speech Production}\label{speech-production-1}
-
-\section{Prosody}\label{prosody-1}
-
-\section{Word Meaning}\label{word-meaning-1}
-
-\section{Action Verbs}\label{action-verbs-1}
-
-\section{Reading and Spelling}\label{reading-and-spelling-1}
-
-\section{Developmental Dyslexia}\label{developmental-dyslexia-1}
-
-\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder-1}
+\bibliography{refs.bib}
 
 \end{document}

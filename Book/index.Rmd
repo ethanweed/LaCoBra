@@ -1,6 +1,7 @@
 ---
-title: 'Language, Cognition, and the Brain'  
-subtitle: 'An Introductory Course in Psycholinguistics at Aarhus University'  
-author: 'Ethan Weed'
+title: "Language, Cognition, and the Brain"
+subtitle: "An Introduction to Psycholinguistics at Aarhus University"
+author: "Ethan Weed"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: refs.bib
 ---

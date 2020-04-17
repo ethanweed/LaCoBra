@@ -1,13 +1,14 @@
-bookdown::gitbook:
-  css: style.css
-  config:
-    toc:
-      before: |
-        <li><a href="./">A Minimal Book Example</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
-    download: ["pdf", "epub"]
+title: 'Language, Cognition, and the Brain'  
+subtitle: 'An Introductory Course in Psycholinguistics at Aarhus University'  
+author: 'Ethan Weed'
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: refs.bib
+book_filename: "LaCoBra"
+download: ["pdf", "epub"]
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -15,3 +16,5 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
+bookdown::html_book:
+css: toc.css

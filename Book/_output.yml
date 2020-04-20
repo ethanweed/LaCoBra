@@ -2,7 +2,6 @@ title: 'Language, Cognition, and the Brain'
 subtitle: 'An Introductory Course in Psycholinguistics at Aarhus University'  
 author: 'Ethan Weed'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-bibliography: refs.bib
 book_filename: "LaCoBra"
 download: ["pdf", "epub"]
 language:

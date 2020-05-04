@@ -1,41 +1,57 @@
-\documentclass[]{article}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
-\usepackage[unicode=true]{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Language, Cognition, and the Brain},
-            pdfauthor={Ethan Weed},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+  pdftitle={Language, Cognition, and the Brain},
+  pdfauthor={Ethan Weed},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
-\usepackage{natbib}
-\bibliographystyle{plainnat}
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
-\usepackage{graphicx,grffile}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -44,31 +60,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -77,18 +76,19 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+
+\title{Language, Cognition, and the Brain}
 \usepackage{etoolbox}
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
   \apptocmd{\@title}{\par {\large #1 \par}}{}{}
 }
 \makeatother
-
-\title{Language, Cognition, and the Brain}
-\providecommand{\subtitle}[1]{}
 \subtitle{An Introduction to Psycholinguistics at Aarhus University}
 \author{Ethan Weed}
-\date{17 April, 2020}
+\date{04 May, 2020}
 
 \begin{document}
 \maketitle
@@ -97,143 +97,81 @@
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
-\section{Introduction}\label{introduction}
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
-\subsection{What is Language?}\label{what-is-language}
+\hypertarget{what-is-language}{%
+\subsection{What is Language?}\label{what-is-language}}
 
-What is language? This is one of those questions that seems like it has
-an easy and obvious answer, but like most questions, the more I think
-about it, the harder it becomes to give a single, satisfactory answer.
-Language is something we use every day, so of course we know what it is.
-It's how we communicate with each other. Then again, it is not the
-\emph{only} way we communicate with each other. If I go to the
-supermarket, and another shopper and I move to give space to each other
-in the aisle, we are intentionally communicating information about how
-we can move our bodies and shopping carts to allow us both to get the
-items we want from the shelves. But this doesn't really seem like an
-example of language. If the same fellow shopper and I misjudge each
-other's intentions, and move the wrong way, and smile to each other,
-this is also communication, but it still doesn't feel like language.
+What is language? This is one of those questions that seems like it has an easy and obvious answer, but like most questions, the more I think about it, the harder it becomes to give a single, satisfactory answer. Language is something we use every day, so of course we know what it is. It's how we communicate with each other. Then again, it is not the \emph{only} way we communicate with each other. If I go to the supermarket, and another shopper and I move to give space to each other in the aisle, we are intentionally communicating information about how we can move our bodies and shopping carts to allow us both to get the items we want from the shelves. But this doesn't really seem like an example of language. If the same fellow shopper and I misjudge each other's intentions, and move the wrong way, and smile to each other, this is also communication, but it still doesn't feel like language.
 
-You can easily think of other examples of humans communicating with
-other humans in ways that we wouldn't normally call language: music,
-painting, photography, dance. If we agree that these are forms of
-communication, and also agree that they aren't examples of language,
-then we must be applying some sort of internal categorical filter that
-can discriminate linguistic behavior from non-linguistic behavior. We
-have some sort of internal definition of language that allows us to say
-that giving a speech, holding a conversation in sign-language, writing
-an email, reading a novel, and asking a question in class are examples
-of linguistic behavior, but smiling, raising eyebrows, or making a rude
-gesture are not.
+You can easily think of other examples of humans communicating with other humans in ways that we wouldn't normally call language: music, painting, photography, dance. If we agree that these are forms of communication, and also agree that they aren't examples of language, then we must be applying some sort of internal categorical filter that can discriminate linguistic behavior from non-linguistic behavior. We have some sort of internal definition of language that allows us to say that giving a speech, holding a conversation in sign-language, writing an email, reading a novel, and asking a question in class are examples of linguistic behavior, but smiling, raising eyebrows, or making a rude gesture are not.
 
-Then again, although gestures and facial expressions may not exactly be
-language, they do often accompany linguistic expression, and can often
-either strengthen or completely negate the sentiment being expressed
-linguistically. So even those these activities may not examples of
-linguistic behavior, they are often at least \emph{paralinguistic}.
+Then again, although gestures and facial expressions may not exactly be language, they do often accompany linguistic expression, and can often either strengthen or completely negate the sentiment being expressed linguistically. So even those these activities may not examples of linguistic behavior, they are often at least \emph{paralinguistic}.
 
-Thinking about whether animals can be said to have language can be a
-very useful way to approach the question of what language is. There is
-no question that other animals than humans have systems for
-communicating with each other, and even with humans. My cats have no
-difficulty communicating to me when they are hungry, and it is easy to
-see when a dog wants you throw a ball for her to catch. Bees use complex
-patterns of dance to communicate exact spatial information to each
-other. Maybe we should include bee dance in our category of linguistic
-behavior? \citet{hockett1960origin} enumerate a list of criteria that a
-system should meet to be considered a language, and consider whether or
-not bee dance meets these criteria. You may or may not agree with their
-conclusions. Regardless of where we come down on whether bee dance, dog
-tail-wagging, or bonobo signing counts as language or not, thinking
-about these questions forces us to refine our definitions of what
-language is.
+Thinking about whether animals can be said to have language can be a very useful way to approach the question of what language is. There is no question that other animals than humans have systems for communicating with each other, and even with humans. My cats have no difficulty communicating to me when they are hungry, and it is easy to see when a dog wants you throw a ball for her to catch. Bees use complex patterns of dance to communicate exact spatial information to each other. Maybe we should include bee dance in our category of linguistic behavior? \citet{hockett1960origin} enumerate a list of criteria that a system should meet to be considered a language, and consider whether or not bee dance meets these criteria. You may or may not agree with their conclusions. Regardless of where we come down on whether bee dance, dog tail-wagging, or bonobo signing counts as language or not, thinking about these questions forces us to refine our definitions of what language is.
 
-So what is language? We all have an intuitive understanding of what
-language is, but it is difficult to pin down an exact definition. I have
-a PhD in Linguistics, and I'm not even sure what language is. Still, it
-is good to ask ourselves these difficult questions every now and then,
-maybe once a year. Biologists can't spend all their time asking
-themselves what life is; they'd never get anything done. In the same
-way, linguists need to just assume that they basically know what
-language is, so they can get on the with business of studying it. But
-every now and then, asking what ``what \emph{is}'' this thing that I
-study, anyway?" brings a richnheness to our studies that is invaluable,
-and imbues the daily minutiae of the practice of research with a deeper
-meaning.
+So what is language? We all have an intuitive understanding of what language is, but it is difficult to pin down an exact definition. I have a PhD in Linguistics, and I'm not even sure what language is. Still, it is good to ask ourselves these difficult questions every now and then, maybe once a year. Biologists can't spend all their time asking themselves what life is; they'd never get anything done. In the same way, linguists need to just assume that they basically know what language is, so they can get on the with business of studying it. But every now and then, asking what ``what \emph{is}'' this thing that I study, anyway?" brings a richnheness to our studies that is invaluable, and imbues the daily minutiae of the practice of research with a deeper meaning.
 
-\subsection{What is Cognition?}\label{what-is-cognition}
+\hypertarget{what-is-cognition}{%
+\subsection{What is Cognition?}\label{what-is-cognition}}
 
-Ok, this book is called ``Language, Cognition, and the Brain''. We have
-already thought about what language is, and decided that, although it
-can be hard to say \emph{exactly} what language is, we do kind of know
-it we see it. So what is cognition, then?
+Ok, this book is called ``Language, Cognition, and the Brain''. We have already thought about what language is, and decided that, although it can be hard to say \emph{exactly} what language is, we do kind of know it we see it. So what is cognition, then?
 
-Broadly speaking, cognition means thinking. The word has roots in Greek
-(gnosis) and Latin (cognoscere). When Descartes' \emph{je pense, donc je
-suis} \citet{descartes1968discourse} was translated to Latin, it became
-the famous \emph{cogito, ergo sum}: ``I think, therefore I am''. But
-while Descartes meant considered, rational, and intentional thinking,
-this is not necessarily what is meant by the modern use of the word
-``cognition''. It \emph{can} be all of these things, but not
-necessarily. Sometimes, ``cognitive'' is used to mean ``not emotional''.
-Sometimes, ``cognitive'' has been used to mean ``mental'', that is, not
-just pure instinct. In this sense, the word is meant to emphasize that
-although things like thoughts and ideas cannot be seen or touched, they
-can still be thought of as real. We will return to some of these
-meanings later. Suffice it to say, cognition is related to thought,
-thinking, and knowledge.
+Broadly speaking, cognition means thinking. The word has roots in Greek (gnosis) and Latin (cognoscere). When Descartes' \emph{je pense, donc je suis} \citeyearpar{descartes1968discourse} was translated to Latin, it became the famous \emph{cogito, ergo sum}: ``I think, therefore I am''. But while Descartes meant considered, rational, and intentional thinking, this is not necessarily what is meant by the modern use of the word ``cognition''. It \emph{can} be all of these things, but not necessarily. Sometimes, ``cognitive'' is used to mean ``not emotional''. Sometimes, ``cognitive'' has been used to mean ``mental'', that is, not just pure instinct. In this sense, the word is meant to emphasize that although things like thoughts and ideas cannot be seen or touched, they can still be thought of as real. We will return to some of these meanings later. Suffice it to say, cognition is related to thought, thinking, and knowledge.
 
-Like most things, the more closely you look at cognition, the more there
-is to see. A simple example of a cognitive process is vision. There is a
-cat in front of me, and I see the cat. But vision is not simple at all.
-``Seeing'' the cat involves a long chain of processes, from registering
-the light reflected from the cats' fur on my retina, through the
-transmission of electro-chemical impulses carrying information about the
-image on the retina along the optic nerve to occipital cortex in my
-brain, where this information is broken down and analyzed into all of
-its component parts such as (shape, orientation, color, and motion).
+Like most things, the more closely you look at cognition, the more there is to see. A simple example of a cognitive process is vision. There is a cat in front of me, and I see the cat. But vision is not simple at all. ``Seeing'' the cat involves a long chain of processes, from registering the light reflected from the cats' fur on my retina, through the transmission of electro-chemical impulses carrying information about the image on the retina along the optic nerve to occipital cortex in my brain, where this information is broken down and analyzed into all of its component parts such as (shape, orientation, color, and motion).
 
-At some point along this chain, the information I have gleaned from the
-visual information is linked with other kinds of information which I
-have internally stored: the concept of ``cat'', for instance. The light
-bouncing off of the cat's fur surely cannot be said to be cognition, but
-my knowledge that I see a cat in front would count as cognitive, by most
-definitions. At what point along this chain of information processing
-does cognition begin? Is the reflection of the cat on my retina an
-example of cognition? It doesn't really feel like it; a mirror can
-reflect an image, but that is not cognition. But most modern accounts of
-cognition would probably count at least the analysis of shape and color
-in the visual cortex as cognitive processes. Even though I am not
-consciously aware that my brain is analyzing the wavelengths of light
-reflected from the cat's fur, this analysis involves an internal
-categorization of external stimuli, which will later be used when I say
-that ``the cat's fur is sort of orange with a bit of white''.
+At some point along this chain, the information I have gleaned from the visual information is linked with other kinds of information which I have internally stored: the concept of ``cat'', for instance. The light bouncing off of the cat's fur surely cannot be said to be cognition, but my knowledge that I see a cat in front would count as cognitive, by most definitions. At what point along this chain of information processing does cognition begin? Is the reflection of the cat on my retina an example of cognition? It doesn't really feel like it; a mirror can reflect an image, but that is not cognition. But most modern accounts of cognition would probably count at least the analysis of shape and color in the visual cortex as cognitive processes. Even though I am not consciously aware that my brain is analyzing the wavelengths of light reflected from the cat's fur, this analysis involves an internal categorization of external stimuli, which will later be used when I say that ``the cat's fur is sort of orange with a bit of white''.
 
-\section{Classic Models of Aphasia}\label{classic-models-of-aphasia}
+The experience of seeing a cat, or seeing a mountain in the distance, feels like a unified experience: we turn your head, and we see the cat. But supporting that experience is a whole host of cognitive processes, all of which take place extremely quickly, and mostly without any conscious effort on our part. There is a quality of automaticity to much of our cognitive activity: if there cat is sitting there, and we look in its direction, it is difficult to choose \emph{not} to see the cat.
 
-\section{Primary progressive aphasia}\label{primary-progressive-aphasia}
+Much of the cognition supporting language has a similar automatic quality to it. If you are sitting on a bus, and the person in the seat next to you is carrying on a conversation in a language you don't understand, it can sound like a wall of noise: it is clearly human speech, but it carries next to no meaning for you, and it is easy to ignore. On the other hand, if the conversation is in your native language, or in a language you are fluent in, it can take a great effort to turn your attention away from the conversation and shut it out. Over the course of our lifetimes, our brains have become highly attuned to the slight variations of sound that carry meaning in our native languages, and as soon as the sound waves start vibrating our eardrums and sending impulses to areas of the brain that can analyze the component parts of the sound and associate them with internally-stored or generated meanings, our natural inclination is hear what the person is saying, and to think thoughts about what that person is saying.
 
-\section{Speech perception and the dual-stream
-model}\label{speech-perception-and-the-dual-stream-model}
+\hypertarget{language-cognition-and-the-brain}{%
+\subsection{Language, Cognition, and the Brain}\label{language-cognition-and-the-brain}}
 
-\section{More on Speech Perception and the Dual Stream
-Model}\label{more-on-speech-perception-and-the-dual-stream-model}
+One way of understanding language is to think of it as brain activity. Language is something that happens in our brains; it consists of patterns of activity between neurons. This activity could be set in motion by speech we have heard, or letters on the page of a book we reading. Look at the back of a box of breakfast cereal, and the shapes of the letters set off patterns of activity in your brain that can result in e.g.~thinking thoughts about processed oats. Without brains and their activity, there would be no language.
 
-\section{Speech Production}\label{speech-production}
+But language is also a human cultural phenomenon; it exists in some sense outside of our brains as well. We can record voices, and hear and understand them years later. We adopt new slang words, because we heard somebody else use them. Accents carry with them prejudices about the speaker. Language is also a system: it consists of units that can be analyzed independently of any knowledge of neural anatomy. Phones, phonemes, words, sentences are all aspects of language that seem remote from brain cell structure. Whether language can exist without a brain that can activate it is a question for somebody else to answer. If the greetings spoken in 55 different human languages and recorded on the Voyager golden record continue to travel through the cosmos after all humans have ceased to exist, are these recordings still language, or are they just an aspect of a singular physical object?
 
-\section{Prosody}\label{prosody}
+Making the connection between brain and language is difficult, because the vocabulary we use to understand language is very different from the vocabulary we use to understand the brain. Linguistic vocabulary includes words like ``pronoun'', ``relative clause'', ``semantic space'', ``co-speech gesture'', ``alophone'', etc. Neuroscience vocabulary includes words like ``cell body'', ``action potential'', ``angular gyrus'', ``myelin'', etc. We can understand conceptually that without action potentials, there would be no pronouns, but it is nearly impossible to trace a line directly from the world of synapses to the world of parts of speech. We need some sort of interpreter or go-between, and this is where cognition comes in. The vocabulary of cognition and cognitive science makes it easier to talk about linguistic processes and brain processes in the same breath. By introducing a concept like \emph{working memory}, we have a level of analysis that can inform our understanding of phenomena at the linguistic level, but which it self can be investigated at the level of neural activity.
 
-\section{Word Meaning}\label{word-meaning}
+There is nothing easy or simple about language or the brain. Language has been argued to be a finite system capable of generating an infinite number of possible combinations. I do not wish to argue this case one way or the other, but even without reaching to infinity, we can probably agree that any natural language can express a variety of thoughts, ideas, emotions, sentiments or observations that is truly staggering. If I did nothing but spend every waking hour for the rest of my life reading books written in my own native language, English, I would die long before I had come close to reading them all, not to mention all the books written in Danish, Spanish, or languages I do not yet understand. At the same time, the brain itself is also composed of a finite number of partially interconnected cells, and yet this finite number of cells is capable of generating all the words in all those books, as well as many multitudes of thought, ideas, etc. which have never been recorded in any book, many sentences as yet unsaid, insights not yet had or shared, and so on. We may never really understand how language happens in the brain, but we know that it does. And the vocabulary of cognition gives us a powerful tool for building conceptual bridges between these two very distant conceptual domains.
 
-\section{Action Verbs}\label{action-verbs}
+\hypertarget{classic-models-of-aphasia}{%
+\section{Classic Models of Aphasia}\label{classic-models-of-aphasia}}
 
-\section{Reading and Spelling}\label{reading-and-spelling}
+\hypertarget{primary-progressive-aphasia}{%
+\section{Primary progressive aphasia}\label{primary-progressive-aphasia}}
 
-\section{Developmental Dyslexia}\label{developmental-dyslexia}
+\hypertarget{speech-perception-and-the-dual-stream-model}{%
+\section{Speech perception and the dual-stream model}\label{speech-perception-and-the-dual-stream-model}}
 
-\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder}
+\hypertarget{more-on-speech-perception-and-the-dual-stream-model}{%
+\section{More on Speech Perception and the Dual Stream Model}\label{more-on-speech-perception-and-the-dual-stream-model}}
 
-\bibliography{refs.bib}
+\hypertarget{speech-production}{%
+\section{Speech Production}\label{speech-production}}
+
+\hypertarget{prosody}{%
+\section{Prosody}\label{prosody}}
+
+\hypertarget{word-meaning}{%
+\section{Word Meaning}\label{word-meaning}}
+
+\hypertarget{action-verbs}{%
+\section{Action Verbs}\label{action-verbs}}
+
+\hypertarget{reading-and-spelling}{%
+\section{Reading and Spelling}\label{reading-and-spelling}}
+
+\hypertarget{developmental-dyslexia}{%
+\section{Developmental Dyslexia}\label{developmental-dyslexia}}
+
+\hypertarget{right-hemisphere-disorder}{%
+\section{Right Hemisphere Disorder}\label{right-hemisphere-disorder}}
+
+  \bibliography{refs.bib}
 
 \end{document}

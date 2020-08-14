@@ -1,17 +1,180 @@
 ---
 title: "Language, Cognition and the Brain"
 output: html_document
+
 ---
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/textfolding.css">
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Welcome to Language, Cognition and the Brain!
+<button type="button" class="collapsible">
+Week 36: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
 
-Here are some resources for the course:
-
-[Getting started with plotting in R](https://ethanweed.github.io/r-tutorials/index.html)
 
 
-[t-test and ANOVA conceptual introduction](scripts/ANOVA-Stroop.html)
+
+<button type="button" class="collapsible">
+Week 37: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+
+<button type="button" class="collapsible">
+Week 38: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 39: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 40: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 41: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible" style="background-color: #feb24c">
+Week 42: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+
+<button type="button" class="collapsible">
+Week 43: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 44: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+<button type="button" class="collapsible">
+Week 45: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+<button type="button" class="collapsible">
+Week 46: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+<button type="button" class="collapsible">
+Week 47: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+
+<button type="button" class="collapsible">
+Week 48: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 49: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+<button type="button" class="collapsible">
+Week 50: Introduction
+</button>
+<div class="content">
+Lorem ipsum
+</div>
+<p></p><p></p>
+
+
+
+
+
+
+<script src="styles/textfolding.js"></script>
+

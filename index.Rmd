@@ -1,5 +1,4 @@
 ---
-title: "Language, Cognition and the Brain"
 output: html_document
 
 ---
@@ -11,11 +10,89 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Language, Cognition and the Brain
+
+Welcome to the course! 
+
+
+The textbook we will use is: Kemmerer, D. (2015) Cognitive Neuroscience of Language. New York/East Sussex: Pyschology. You can find it in the <a href="https://www.stakbogladen.dk/soegning.asp?phrase=9781848726215" target="_blank">University Bookstore</a>, and elsewhere online.
+
+
 <button type="button" class="collapsible">
 Week 36: Introduction
 </button>
 <div class="content">
-Lorem ipsum
+
+
+### Lecture and Discussion:
+
+- The structure of the course
+- The relationship between linguistic, cognitive, and neural processes
+- Questions and answers
+
+
+### Lab:
+
+- Participate in an in-class experiment
+
+### Assignment:
+
+-
+
+</div>
+<p></p><p></p>
+
+
+
+<button type="button" class="collapsible">
+Week 37: Aphasia 1
+</button>
+<div class="content">
+
+
+
+### Lecture and Discusion:
+
+- Classic aphasia syndromes
+- Building a cognitive model from aphasia data
+
+### Lab:
+
+- Look at our data together
+
+### Assignment:
+
+-
+
+</div>
+<p></p><p></p>
+
+
+
+
+
+<button type="button" class="collapsible">
+Week 38: Aphasia 2
+</button>
+<div class="content">
+
+
+
+
+### Lecture and Discusion:
+
+- What is primary progressive aphasia?
+- How can we use PPA to expand our neurocognitive model of language?
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
 </div>
 <p></p><p></p>
 
@@ -23,44 +100,27 @@ Lorem ipsum
 
 
 <button type="button" class="collapsible">
-Week 37: Introduction
+Week 39: Speech Perception 1
 </button>
 <div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
 
 
 
 
+### Lecture and Discusion:
 
-<button type="button" class="collapsible">
-Week 38: Introduction
-</button>
-<div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
+- The dual-stream model of speech perception
+- The early stages of speech perception
 
+### Lab:
 
+- 
+- 
 
+### Assignment:
 
-<button type="button" class="collapsible">
-Week 39: Introduction
-</button>
-<div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
+-
 
-
-
-
-<button type="button" class="collapsible">
-Week 40: Introduction
-</button>
-<div class="content">
-Lorem ipsum
 </div>
 <p></p><p></p>
 
@@ -68,10 +128,56 @@ Lorem ipsum
 
 
 <button type="button" class="collapsible">
-Week 41: Introduction
+Week 40: Speech Perception 2
 </button>
 <div class="content">
-Lorem ipsum
+
+
+
+
+### Lecture and Discusion:
+
+- More detail on the dual stream model
+- Auditory short-term memory
+- Cortical organization of language
+
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 41: Speech Production
+</button>
+<div class="content">
+
+
+
+
+### Lecture and Discusion:
+
+- Levelt's model of speech production
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
 </div>
 <p></p><p></p>
 
@@ -79,10 +185,16 @@ Lorem ipsum
 
 
 <button type="button" class="collapsible" style="background-color: #feb24c">
-Week 42: Introduction
+Week 42: Autumn Break <span style="font-size:32px">&#127810;</span>
 </button>
 <div class="content">
-Lorem ipsum
+
+
+### Assignment:
+
+- Relax
+
+
 </div>
 <p></p><p></p>
 
@@ -91,10 +203,29 @@ Lorem ipsum
 
 
 <button type="button" class="collapsible">
-Week 43: Introduction
+Week 43: Prosody
 </button>
 <div class="content">
-Lorem ipsum
+
+
+
+
+### Lecture and Discusion:
+
+- The perception of prosody
+- The production of prosody
+- Differences between emotional and linguistic prosody
+
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
 </div>
 <p></p><p></p>
 
@@ -102,77 +233,187 @@ Lorem ipsum
 
 
 <button type="button" class="collapsible">
-Week 44: Introduction
+Week 44: Models of Concrete Noun Representation
 </button>
 <div class="content">
-Lorem ipsum
+
+
+
+
+### Lecture and Discusion:
+
+- Models of object noun representation
+- The concept of “features”
+
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
 </div>
 <p></p><p></p>
 
 
 <button type="button" class="collapsible">
-Week 45: Introduction
+Week 45: Models of Action Verb Representation
 </button>
 <div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
-
-
-
-<button type="button" class="collapsible">
-Week 46: Introduction
-</button>
-<div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
-
-
-
-<button type="button" class="collapsible">
-Week 47: Introduction
-</button>
-<div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
 
 
 
 
+### Lecture and Discusion:
 
-<button type="button" class="collapsible">
-Week 48: Introduction
-</button>
-<div class="content">
-Lorem ipsum
-</div>
-<p></p><p></p>
+- Grounded cognition for action verbs
+- The hub-and-spoke model for action verbs
 
 
+### Lab:
 
+- 
+- 
 
-<button type="button" class="collapsible">
-Week 49: Introduction
-</button>
-<div class="content">
-Lorem ipsum
+### Assignment:
+
+-
+
 </div>
 <p></p><p></p>
 
 
 
 <button type="button" class="collapsible">
-Week 50: Introduction
+Week 46: TBA - visit to brain museum?
 </button>
 <div class="content">
-Lorem ipsum
+
+
+
+
+### Lecture and Discusion:
+
+- 
+- 
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
 </div>
 <p></p><p></p>
 
 
 
+<button type="button" class="collapsible">
+Week 47: Reading and Dyslexia 1
+</button>
+<div class="content">
+
+
+
+
+### Lecture and Discusion:
+
+- Cognitive models of reading
+- Neurocognitive models of reading
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
+</div>
+<p></p><p></p>
+
+
+
+
+
+<button type="button" class="collapsible">
+Week 48: Reading and Dyslexia 2
+</button>
+<div class="content">
+
+
+
+
+### Lecture and Discusion:
+
+- Developmental Dyslexia
+- Adult Dyslexia
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
+</div>
+<p></p><p></p>
+
+
+
+
+<button type="button" class="collapsible">
+Week 49: Pragmatics
+</button>
+<div class="content">
+
+
+
+
+### Lecture and Discusion:
+
+- Pragmatic Disorders
+- Right Hemisphere Disorder
+
+### Lab:
+
+- 
+- 
+
+### Assignment:
+
+-
+
+</div>
+<p></p><p></p>
+
+
+
+<button type="button" class="collapsible">
+Week 50: Paper-writing workshop
+</button>
+<div class="content">
+
+### Assignment:
+
+- We work together to get our papers written!
+
+
+</div>
+<p></p><p></p>
+
+
+## Recommendations:
+Here you can see my list of <a href="https://ethanweed.github.io/teaching/Recommendations.html" target="_blank">recommended textbooks and software</a>. 
 
 
 

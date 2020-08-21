@@ -1,8 +1,10 @@
 ---
+title: Language, Cognition and the Brain
 output: html_document
 
 ---
 <link rel="stylesheet" type="text/css" href="styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/split-page.css">
 <link rel="stylesheet" type="text/css" href="styles/textfolding.css">
 
 
@@ -10,19 +12,12 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Language, Cognition and the Brain
-
-Welcome to the course! 
-
-
-The textbook we will use is: Kemmerer, D. (2015) Cognitive Neuroscience of Language. New York/East Sussex: Pyschology. You can find it in the <a href="https://www.stakbogladen.dk/soegning.asp?phrase=9781848726215" target="_blank">University Bookstore</a>, and elsewhere online.
-
+Welcome to the course website!
 
 <button type="button" class="collapsible">
-Week 36: Introduction
+Week 37: Introduction
 </button>
 <div class="content">
-
 
 ### Lecture and Discussion:
 
@@ -415,7 +410,8 @@ Week 50: Paper-writing workshop
 ## Recommendations:
 Here you can see my list of <a href="https://ethanweed.github.io/teaching/Recommendations.html" target="_blank">recommended textbooks and software</a>. 
 
-
+  </div>
+</div>
 
 <script src="styles/textfolding.js"></script>
 

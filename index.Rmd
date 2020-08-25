@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Welcome to the course website!
 
 <button type="button" class="collapsible">
-Week 37: Introduction
+Week 36: Introduction
 </button>
 <div class="content">
 
@@ -32,7 +32,10 @@ Week 37: Introduction
 
 ### Assignment:
 
--
+- Read Read:
+  - Kemmerer chapter 1 pp. 3-10
+  - Kemmerer chapter 3
+
 
 </div>
 <p></p><p></p>
@@ -57,7 +60,10 @@ Week 37: Aphasia 1
 
 ### Assignment:
 
--
+- Read: 
+  - Kemmerer chapter 1 pp. 10-20
+  - Kemmerer chapter 4
+
 
 </div>
 <p></p><p></p>
@@ -86,7 +92,10 @@ Week 38: Aphasia 2
 
 ### Assignment:
 
--
+- Read:
+  - Kemmerer chapter 5 pp. 111-127
+  - Kemmerer chapter 1 pp. 20-27
+
 
 </div>
 <p></p><p></p>
@@ -114,7 +123,8 @@ Week 39: Speech Perception 1
 
 ### Assignment:
 
--
+- Read:
+  - Kemmerer chapter 5 pp. 127-144
 
 </div>
 <p></p><p></p>
@@ -144,7 +154,9 @@ Week 40: Speech Perception 2
 
 ### Assignment:
 
--
+- Read 
+  - Kemmerer chapter 6 pp. 145-168
+
 
 </div>
 <p></p><p></p>
@@ -171,7 +183,8 @@ Week 41: Speech Production
 
 ### Assignment:
 
--
+- Read 
+  - Kemmerer chapter 7
 
 </div>
 <p></p><p></p>
@@ -219,7 +232,9 @@ Week 43: Prosody
 
 ### Assignment:
 
--
+- Read 
+  - Kemmerer chapter 10 pp 273-29
+  - <a href="https://drive.google.com/file/d/18-jl_faBNcJgHI6v2rIm05VA8pSelTC3/view" target="_blank">Lambdon Ralph et al (2010)</a>
 
 </div>
 <p></p><p></p>
@@ -248,7 +263,8 @@ Week 44: Models of Concrete Noun Representation
 
 ### Assignment:
 
--
+- Read 
+  - Kemmerer chapter 11 pp 309-324
 
 </div>
 <p></p><p></p>
@@ -275,7 +291,8 @@ Week 45: Models of Action Verb Representation
 
 ### Assignment:
 
--
+- Read TBA
+
 
 </div>
 <p></p><p></p>
@@ -302,7 +319,9 @@ Week 46: TBA - visit to brain museum?
 
 ### Assignment:
 
--
+- Read
+  - Kemmerer: chapter 8 pp 215-230 (I might change this...)
+
 
 </div>
 <p></p><p></p>
@@ -329,7 +348,10 @@ Week 47: Reading and Dyslexia 1
 
 ### Assignment:
 
--
+- Read
+  - Kemmerer chapter 8 pp 230-243
+  - <a href="http://www.mdpi.com/2076-3425/8/4/61" target="_blank">  Protopapas and Parrila (2018)  </a>
+
 
 </div>
 <p></p><p></p>
@@ -358,7 +380,9 @@ Week 48: Reading and Dyslexia 2
 
 ### Assignment:
 
--
+- Read
+  - Cummings chapter 3
+
 
 </div>
 <p></p><p></p>
@@ -386,7 +410,9 @@ Week 49: Pragmatics
 
 ### Assignment:
 
--
+- Read
+  - McGregor: Guide to structuring written and oral presentations
+  - TBA
 
 </div>
 <p></p><p></p>

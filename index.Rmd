@@ -432,9 +432,9 @@ Week 50: Paper-writing workshop
 </div>
 <p></p><p></p>
 
+<a href="https://drive.google.com/drive/folders/17L17p8vd6Sf9uQwUy4tk5dHBicCNR1T5?usp=sharing" target="_blank"> Slides </a>
 
-## Recommendations:
-Here you can see my list of <a href="https://ethanweed.github.io/teaching/Recommendations.html" target="_blank">recommended textbooks and software</a>. 
+<a href="https://ethanweed.github.io/teaching/Recommendations.html" target="_blank">Recommended Textbooks and Software</a>. 
 
   </div>
 </div>

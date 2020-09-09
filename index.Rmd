@@ -63,6 +63,9 @@ Week 37: Aphasia 1
 - Read: 
   - Kemmerer chapter 1 pp. 10-20
   - Kemmerer chapter 4
+- Install software:  
+	- <a href="https://osdoc.cogsci.nl/3.3/download/" target="_blank"> OpenSesame </a>  
+	- <a href="https://jasp-stats.org/download/" target="_blank"> JASP </a>  
 
 
 </div>

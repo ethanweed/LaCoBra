@@ -57,6 +57,10 @@ Week 37: Aphasia 1
 ### Lab:
 
 - Look at our data together
+  - Scales of measurement  
+  - Descriptive statistics
+  - Variance  
+  - Comparing two means (t-test)
 
 ### Assignment:
 

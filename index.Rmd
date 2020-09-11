@@ -312,7 +312,7 @@ Week 45: Models of Action Verb Representation
 
 
 <button type="button" class="collapsible">
-Week 46: TBA - visit to brain museum?
+Week 46: TBA - visit to brain museum
 </button>
 <div class="content">
 
@@ -326,8 +326,7 @@ Week 46: TBA - visit to brain museum?
 
 ### Lab:
 
-- 
-- 
+- Visit to museum at Department of Dentistry
 
 ### Assignment:
 

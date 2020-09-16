@@ -99,14 +99,15 @@ Week 38: Aphasia 2
 
 ### Lab:
 
-- 
-- 
+- We use JASP to do a t-test on our data
+- What do the results mean?
 
 ### Assignment:
 
 - Read:
   - Kemmerer chapter 5 pp. 111-127
   - Kemmerer chapter 1 pp. 20-27
+  - Optional reading: Navarro, Foxcroft and Faulkenberry (2019) Chapter 10
 
 
 </div>

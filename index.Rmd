@@ -131,8 +131,8 @@ Week 39: Speech Perception 1
 
 ### Lab:
 
-- 
-- 
+- Analysis of Variance
+- Intro to OpenSesame
 
 ### Assignment:
 

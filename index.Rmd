@@ -241,8 +241,8 @@ Week 43: Prosody
 
 ### Lab:
 
-- 
-- 
+- We analyze our Stroop results in JASP
+- Introduction to correlation and regression in JASP
 
 ### Assignment:
 
@@ -272,8 +272,12 @@ Week 44: Models of Concrete Noun Representation
 
 ### Lab:
 
-- 
-- 
+- We workshop experiment ideas
+  - Groups present their experiment ideas
+  - Together we:
+    - Sketch experimental designs
+    - Choose an appropriate statistical analysis
+  
 
 ### Assignment:
 
@@ -300,8 +304,8 @@ Week 45: Models of Action Verb Representation
 
 ### Lab:
 
-- 
-- 
+- In-class OpenSesame Q+A
+
 
 ### Assignment:
 

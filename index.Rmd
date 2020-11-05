@@ -309,7 +309,7 @@ Week 45: Models of Action Verb Representation
 
 ### Assignment:
 
-- Read TBA
+- Work on preparing experiments
 
 
 </div>
@@ -318,7 +318,7 @@ Week 45: Models of Action Verb Representation
 
 
 <button type="button" class="collapsible">
-Week 46: TBA - visit to brain museum
+Week 46: Visit to brain museum
 </button>
 <div class="content">
 
@@ -349,7 +349,6 @@ Week 46: TBA - visit to brain museum
 Week 47: Reading and Dyslexia 1
 </button>
 <div class="content">
-
 
 
 

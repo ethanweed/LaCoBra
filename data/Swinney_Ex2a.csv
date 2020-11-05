@@ -1,0 +1,5 @@
+﻿Condition,Appropriate,Inappropriate,Unrelated
+AmbigBias,708,715,746
+AmbigNoBias,703,708,743
+UnambigBias,710,747,744
+UnambigNoBias,702,732,742

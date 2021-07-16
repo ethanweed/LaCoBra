@@ -1,8 +1,8 @@
 - Week 1: Introduction
-	- 
+	- [[SlidesIntroduction]]
 
 - Week 2: Aphasia 1
-	- 
+	- [[SlidesAphasia1]]
 
 
 Week 3: Aphasia 2

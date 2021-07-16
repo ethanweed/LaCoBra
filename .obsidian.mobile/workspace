@@ -1,0 +1,80 @@
+{
+  "main": {
+    "id": "0eb0a8e260456b67",
+    "type": "split",
+    "children": [
+      {
+        "id": "637ac8fc6483a286",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SlidesAphasia1.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9be7f3d48b8dc166",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bef619b68807718b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "ca28e8b6f59c1c9a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "2200b5c98deaf221",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e65a2231b8d8b2f4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "SlidesAphasia1.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "637ac8fc6483a286",
+  "lastOpenFiles": [
+    "SlidesAphasia1.md",
+    "LaCoBra_2021/Planning.md",
+    "SlidesIntroduction.md"
+  ]
+}

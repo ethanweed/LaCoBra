@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "a412e3a2303ecd78",
+    "type": "split",
+    "children": [
+      {
+        "id": "839a366f1b242feb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Planning.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be578710c6e688d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "63b0f64eda57561d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59156d4ff1d85694",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a7f5b3ca6907198a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a7641886e439d87c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a909488b2739d954",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c81bdddad8d35f28",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Planning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1260f458806713f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "839a366f1b242feb",
+  "lastOpenFiles": [
+    "Untitled.md"
+  ]
+}

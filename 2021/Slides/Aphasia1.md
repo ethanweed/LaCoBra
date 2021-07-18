@@ -26,4 +26,44 @@ Paul Broca (1824 - 1880)
 
 ---
 
+## Aphasia Diagnosis
 
+1. Production
+2. Comprehension
+3. Repetition
+
+---
+
+## Expressive Aphasia: Diagnosis
+### Production
+
+1. Nonfluent, sometimes with apraxia of speech and/or
+dysarthria
+
+2. Strong reliance on memorized formulaic expressions
+
+3. Worse retrieval of verbs than nouns
+
+4. Marked impairment of closed-class elements (e.g.,
+determiners, auxiliary verbs, prepositions, suffixes)
+
+5. Reduced syntactic complexity
+
+---
+
+## Expressive Aphasia: Diagnosis
+### Comprehension
+
+1. Relatively preserved understanding of colloquial
+conversation
+
+2. Poor comprehension of some types of syntactically
+complex grammatical constructions
+
+---
+
+## Expressive Aphasia: Diagnosis
+### Repetition
+
+Disrupted, especially for multi-word sequences and
+closed-class items

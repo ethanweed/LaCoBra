@@ -16,9 +16,7 @@ Broca's aphasia
 
 ---
 
-Expressive Aphasia
 
----
 
 Paul Broca (1824 - 1880)
 
@@ -34,8 +32,11 @@ Paul Broca (1824 - 1880)
 
 ---
 
-## Expressive Aphasia: Diagnosis
-### Production
+Expressive Aphasia
+
+---
+
+## Expressive Aphasia:  Production
 
 1. Nonfluent, sometimes with apraxia of speech and/or
 dysarthria
@@ -51,8 +52,7 @@ determiners, auxiliary verbs, prepositions, suffixes)
 
 ---
 
-## Expressive Aphasia: Diagnosis
-### Comprehension
+## Expressive Aphasia: Comprehension
 
 1. Relatively preserved understanding of colloquial
 conversation
@@ -62,8 +62,7 @@ complex grammatical constructions
 
 ---
 
-## Expressive Aphasia: Diagnosis
-### Repetition
+## Expressive Aphasia: Repetition
 
 Disrupted, especially for multi-word sequences and
 closed-class items

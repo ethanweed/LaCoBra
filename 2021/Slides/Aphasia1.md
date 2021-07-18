@@ -16,3 +16,14 @@ Broca's aphasia
 
 ---
 
+Expressive Aphasia
+
+---
+
+Paul Broca (1824 - 1880)
+
+![Broca](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Paul_Broca_2.jpg/200px-Paul_Broca_2.jpg)
+
+---
+
+

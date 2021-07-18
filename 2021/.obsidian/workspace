@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "e5e4d8de3eb406b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "42994a617d00ce8d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Planning.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0da863ab890e2e64",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3b33fb3819f40f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4db240f61fa79e21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a2894c86991da383",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "36cbc68ba93387b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0aeabbc5016819a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a98b6910961fe6c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Planning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "42994a617d00ce8d",
+  "lastOpenFiles": [
+    "Planning.md"
+  ]
+}

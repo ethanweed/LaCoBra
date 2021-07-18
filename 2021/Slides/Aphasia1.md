@@ -62,7 +62,7 @@ complex grammatical constructions
 
 ---
 
-##### Expressive Aphasia: Repetition
+#### Expressive Aphasia: Repetition
 
 Disrupted, especially for multi-word sequences and
 closed-class items

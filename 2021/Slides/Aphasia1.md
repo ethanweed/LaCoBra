@@ -36,7 +36,7 @@ Expressive Aphasia
 
 ---
 
-## Expressive Aphasia:  Production
+#### Expressive Aphasia:  Production
 
 1. Nonfluent, sometimes with apraxia of speech and/or
 dysarthria
@@ -52,7 +52,7 @@ determiners, auxiliary verbs, prepositions, suffixes)
 
 ---
 
-## Expressive Aphasia: Comprehension
+#### Expressive Aphasia: Comprehension
 
 1. Relatively preserved understanding of colloquial
 conversation
@@ -62,7 +62,7 @@ complex grammatical constructions
 
 ---
 
-## Expressive Aphasia: Repetition
+##### Expressive Aphasia: Repetition
 
 Disrupted, especially for multi-word sequences and
 closed-class items

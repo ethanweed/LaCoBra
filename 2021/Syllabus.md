@@ -24,7 +24,7 @@ In the labs, we will divide our time between learning about the basics of statis
 
  
 ## Exam
-The exam for this course is a **short paper** on a topic of your choice. The paper can be written individually, or in a group of up to three people. The topic should be in the field of psycholinguistics or neurolinguistics. The name of the course is "Language, Cognition, and the Brain", and you paper should be about at least two of these things, and one of them has to be language! I highly reccomend you check with me about your topic before committing to it. 
+The exam for this course is a **short paper** on a topic of your choice. The paper can be written individually, or in a group of up to three people. The topic should be in the field of psycholinguistics or neurolinguistics. The name of the course is "Language, Cognition, and the Brain", and you paper should be about _at least two of these things_, and _one of them has to be language!_ I highly reccomend you check with me about your topic before committing to it. 
 
 Please note that there is a **prerequisite** for submitting the exam paper. Before you can submit your exam, I have to approve a short (2-4 page) report of a small psycholinguistic experiment that you have conducted, either on your own, or in a group. I strongly reccomend doing these experiments in a group! I will give you more details on how to do this report at the beginning of the semester.
 

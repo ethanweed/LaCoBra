@@ -36,3 +36,7 @@ The main textbook for the course is:
 Kemmerer, D. (2014). Cognitive neuroscience of language. Psychology Press.
 
 I will add additional articles and suggested readings here soon.
+
+Cummings, L. (2009). Clinical pragmatics. Cambridge University Press.
+
+McGregor, W. B. (2015). Linguistics: an introduction. Bloomsbury Publishing. (Chapter 8: Psycholinguistics: Language, the Mind and the Brain)

@@ -1,5 +1,7 @@
 # Schedule
 
+## Note: work in progress!!! This course schedule is not done yet, and is subject to change!!
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;

@@ -33,7 +33,7 @@ Please note that there is a **prerequisite** for submitting the exam paper. Befo
 
 The main textbook for the course is:
 
-Kemmerer, D. (2015). Cognitive neuroscience of language. Psychology Press. [Available at Stakbogladen](https://www.stakbogladen.dk/soegning.asp?phrase=9781848726215)
+Kemmerer, D. (2015). Cognitive neuroscience of language. Psychology Press. <a href="https://www.stakbogladen.dk/soegning.asp?phrase=9781848726215" target="_blank">Available at Stakbogladen</a>
 
 I will add additional articles and suggested readings here soon.
 

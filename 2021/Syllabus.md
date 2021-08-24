@@ -29,14 +29,8 @@ The exam for this course is a **short paper** on a topic of your choice. The pap
 Please note that there is a **prerequisite** for submitting the exam paper. Before you can submit your exam, I have to approve a short (2-4 page) report of a small psycholinguistic experiment that you have conducted, either on your own, or in a group. I strongly reccomend doing these experiments in a group! I will give you more details on how to do this report at the beginning of the semester.
 
 
-## Texts
-
 The main textbook for the course is:
 
 Kemmerer, D. (2015). Cognitive neuroscience of language. Psychology Press. <a href="https://www.stakbogladen.dk/soegning.asp?phrase=9781848726215" target="_blank">Available at Stakbogladen</a>
 
-I will add additional articles and suggested readings here soon.
-
-Cummings, L. (2009). Clinical pragmatics. Cambridge University Press.
-
-McGregor, W. B. (2015). Linguistics: an introduction. Bloomsbury Publishing. (Chapter 8: Psycholinguistics: Language, the Mind and the Brain)
+I will add additional articles and suggested reading to the Course Schedule

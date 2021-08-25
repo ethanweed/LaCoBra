@@ -30,8 +30,8 @@ say the color that the words are printed in
 
 ---------------------------------------- 
 
+<img src="Images/Stroop2_naming_int.png" alt="" width="700">
 
-![Stroop|700](Images/Stroop2_naming_int.png)
 
 ---------------------------------------- 
 
@@ -41,8 +41,8 @@ say the color that the symbols are printed in
 
 ---------------------------------------- 
 
+<img src="Images/Stroop3_naming_noint.png" alt="" width="700">
 
-![Stroop|700](Images/Stroop3_naming_noint.png)
 
 ---------------------------------------- 
 
@@ -52,8 +52,8 @@ read all the words
 
 ---------------------------------------- 
 
+<img src="Images/Stroop4_reading_int.png" alt="" width="700">
 
-![Stroop|700](Images/Stroop4_reading_int.png)
 
 ---------------------------------------- 
 

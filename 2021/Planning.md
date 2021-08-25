@@ -1,5 +1,22 @@
-- Week 1: Introduction
-	- 
+- Week 1:
+	- Lecture
+		- Goals, etc.
+		- How we will meet the goals with what we do in the class
+		- Go over the Schedule
+		- Exam format
+		- What is Language? Activity with slides: Skinner, animals, quiz
+			- Question 1: kortlink.dk/2cm7w
+			- Question 2: kortlink.dk/2cm7x
+			- Question 3: kortlink.dk/2cm7y
+	- Lab
+		- What will we do in the lab sessions?
+			- Learn about basic statistics and research design
+			- Learn to critically read difficult primary literature
+			- Learn to relate results from literature to broader theoretical questions
+		- Stroop task:
+			- 
+
+
 
 - Week 2: Aphasia 1
 	- 

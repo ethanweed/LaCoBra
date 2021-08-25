@@ -19,7 +19,7 @@ read all the words
 
 ---------------------------------------- 
 
-![Stroop|700](Images/Stroop1_reading_noint.png)
+![|700](Images/Stroop1_reading_noint.png)
 
 ---------------------------------------- 
 

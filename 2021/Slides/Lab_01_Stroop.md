@@ -19,7 +19,8 @@ read all the words
 
 ---------------------------------------- 
 
-![|700](Images/Stroop1_reading_noint.png)
+<img src="Images/Stroop1_reading_noint.png" alt="" width="700">
+
 
 ---------------------------------------- 
 

@@ -19,7 +19,7 @@ read all the words
 
 ---------------------------------------- 
 
-![Stroop|700](images/Stroop1_reading_noint.png)
+![Stroop|700](Images/Stroop1_reading_noint.png)
 
 ---------------------------------------- 
 
@@ -30,7 +30,7 @@ say the color that the words are printed in
 ---------------------------------------- 
 
 
-![Stroop|700](images/Stroop2_naming_int.png)
+![Stroop|700](Images/Stroop2_naming_int.png)
 
 ---------------------------------------- 
 
@@ -41,7 +41,7 @@ say the color that the symbols are printed in
 ---------------------------------------- 
 
 
-![Stroop|700](images/Stroop3_naming_noint.png)
+![Stroop|700](Images/Stroop3_naming_noint.png)
 
 ---------------------------------------- 
 
@@ -52,7 +52,7 @@ read all the words
 ---------------------------------------- 
 
 
-![Stroop|700](images/Stroop4_reading_int.png)
+![Stroop|700](Images/Stroop4_reading_int.png)
 
 ---------------------------------------- 
 

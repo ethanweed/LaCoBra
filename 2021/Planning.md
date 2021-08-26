@@ -14,7 +14,7 @@
 			- Learn to critically read difficult primary literature
 			- Learn to relate results from literature to broader theoretical questions
 		- Stroop task:
-			- 
+			- datasheet: kortlink.dk/2cm89
 
 
 

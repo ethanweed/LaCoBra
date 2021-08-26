@@ -1,4 +1,6 @@
-# Language, Cognition, and the Brain
+## Language, Cognition, and the Brain
+
+Teacher: Ethan Weed
 
 ---
 
@@ -25,3 +27,12 @@
 
 ---------------------------------------- 
 
+### What is language?
+
+
+---------------------------------------- 
+## Language
+## Cognition
+## Brain
+
+---------------------------------------- 

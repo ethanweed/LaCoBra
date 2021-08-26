@@ -254,3 +254,6 @@ Ralph, M. A. L., Sage, K., Jones, R. W., & Mayberry, E. J. (2010). Coherent conc
 <a href="https://pure.mpg.de/rest/items/item_1945516_5/component/file_3035011/content" target="_blank">Levelt, W. J. (2013). _A history of psycholinguistics: The pre-Chomskyan era_. Oxford University Press.</a>
 
 McGregor, W. B. (2015). Linguistics: an introduction. Bloomsbury Publishing. (Chapter 8: Psycholinguistics: Language, the Mind and the Brain)
+
+<a href="https://github.com/ethanweed/LaCoBra/raw/master/2021/Resources/Bill_McGregor_Essay_Writing.pdf" target="_blank">McGregor, W.B. (n.d.) Advice on essay writing</a>
+

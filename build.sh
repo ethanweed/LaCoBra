@@ -8,6 +8,10 @@ pandoc --standalone /Users/ethan/Documents/GitHub/LaCoBra/2021/Schedule.md -o /U
 # Assignments
 pandoc --standalone /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assignment_01_NeuroanatomyQuiz.md -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assignment_01_NeuroanatomyQuiz.html
 
+pandoc --standalone /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assignment_02_NeuroanatomyQuiz.md -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assignment_02_NeuroanatomyQuiz.html
+
+pandoc --standalone /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assignment_03_NeuroanatomyQuiz.md -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assignment_03_NeuroanatomyQuiz.html
+
 # ---------------------------------------- 
 
 # Slides

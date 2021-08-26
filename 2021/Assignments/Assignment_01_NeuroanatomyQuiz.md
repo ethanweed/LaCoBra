@@ -1,3 +1,5 @@
+# Assignment: make 5 quiz questions
+
 The readings on brain anatomy can be quite challenging, so we need to help each other out. In your groups, make at least 5 questions to challenge your classmates, based on Kemmerer pp. 3-10. 
 
 Make these in the form of multiple choice questions, with plausible alternative answers. E.g. “where in the brain is Broca’s area located?” a) right parietal lobe, b) left occipital lobe, c) left temporal lobe, \*d) left frontal lobe. 

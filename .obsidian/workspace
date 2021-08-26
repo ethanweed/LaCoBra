@@ -7,11 +7,8 @@
         "id": "b15b0c65fb66a8b1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2021/Slides/Lab_01_Stroop.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021/Slides/Lab_01_Stroop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +84,15 @@
   },
   "active": "b15b0c65fb66a8b1",
   "lastOpenFiles": [
+    "Assignment_01_NeuroanatomyQuiz.md",
+    "2021/Syllabus.md",
+    "Untitled.md",
     "2021/Slides/Lab_01_Stroop.md",
     "2021/Slides/Lecture_02_Aphasia1.md",
     "2021/Slides/Lecture_01_Introduction.md",
     "2021/Planning.md",
-    "Untitled.md",
     "Untitled 1.md",
     "2021/Slides/Introduction.md",
-    "Ideas for student presentations.md",
-    "2021/Schedule.md",
-    "2021/Syllabus.md"
+    "Ideas for student presentations.md"
   ]
 }

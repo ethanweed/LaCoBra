@@ -2,10 +2,10 @@
 
 ---------------------------------------- 
 
-Each person does all 4 sheets, then on to the next person
+Each person does all 4 tasks, then on to the next person
 
-1.  Time-taker records time for each whole sheet.
-2.  Enter each person’s data in the raw data sheet
+1.  Time-taker records time for each whole task.
+2.  Enter each person’s data in the raw data task
 3.  Leave room for other groups
 4.  Mark if the participant is NOT a native Danish speaker
 5.  Add any other notes you might think are relevant

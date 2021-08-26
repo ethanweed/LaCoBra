@@ -195,7 +195,7 @@
     <td class="tg-7ppf"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">46</span></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
-    <td class="tg-acii">TBA</td>
+    <td class="tg-acii">Journal club: Exam paper edition 1</td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
   </tr>
   <tr>
@@ -209,7 +209,7 @@
     <td class="tg-7ppf"></td>
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
-    <td class="tg-acii">TBA<br><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">end of semester evaluation</span></td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 2</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">end of semester evaluation</span></td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
   </tr>
   <tr>
@@ -223,11 +223,13 @@
     <td class="tg-xu8n"></td>
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br><p style="color: red; font-size: 20px; font-family: 'Nosifer'">Secrets of the Censor!</p></td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
   </tr>
 </tbody>
 </table>
+
+
 
 ## Texts
 

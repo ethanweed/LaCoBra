@@ -223,8 +223,7 @@
     <td class="tg-xu8n"></td>
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br>Secrets of the Censor!
-	  </td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br>Secrets of the Censor!</td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
   </tr>
 </tbody>

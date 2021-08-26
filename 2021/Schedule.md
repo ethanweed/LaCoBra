@@ -223,7 +223,15 @@
     <td class="tg-xu8n"></td>
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br><p style="color: red; font-size: 20px; font-family: 'Nosifer'">Secrets of the Censor!</p></td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span>
+	  <link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Nosifer';font-size: 22px;
+}
+</style>
+	  <br>Secrets of the Censor!
+	  </td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
   </tr>
 </tbody>

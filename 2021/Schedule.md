@@ -245,6 +245,8 @@ Jescheniak, J. D., & Levelt, W. J. (1994). Word frequency effects in speech prod
 
 Liebenthal, E., Binder, J. R., Spitzer, S. M., Possing, E. T., & Medler, D. A. (2005). Neural substrates of phonemic perception. Cerebral cortex, 15(10), 1621-1631.
 
+<a href="https://ethanweed.github.io/pythonbook/landingpage.html" target="_blank_">Navarro, D. and Weed, E. (2021) _Learning Statistics with Python._</a>
+
 Pa, J., & Hickok, G. (2008). A parietal–temporal sensory–motor integration area for the human vocal tract: Evidence from an fMRI study of skilled musicians. Neuropsychologia, 46(1), 362-368.
 
 Ralph, M. A. L., Sage, K., Jones, R. W., & Mayberry, E. J. (2010). Coherent concepts are computed in the anterior temporal lobes. Proceedings of the National Academy of Sciences, 107(6), 2717-2722.

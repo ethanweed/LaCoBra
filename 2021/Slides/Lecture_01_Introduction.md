@@ -27,14 +27,11 @@ Teacher: Ethan Weed
 
 ---------------------------------------- 
 
-### What is language?
 
+**Language**
 
----------------------------------------- 
-## Language
+**Cognition**
 
-## Cognition
-
-## Brain
+**Brain**
 
 ---------------------------------------- 

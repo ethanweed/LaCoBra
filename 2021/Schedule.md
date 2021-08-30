@@ -233,9 +233,11 @@
 
 ## Texts
 
-### Main textbook
+### Main textbook(s)
 
 Kemmerer, D. (2015). Cognitive neuroscience of language. Psychology Press. <a href="https://www.stakbogladen.dk/soegning.asp?phrase=9781848726215" target="_blank">Available at Stakbogladen</a>
+
+<a href="https://ethanweed.github.io/pythonbook/landingpage.html" target="_blank_">Navarro, D. and Weed, E. (2021) _Learning Statistics with Python._</a>
 
 ### Additional required reading
 
@@ -244,8 +246,6 @@ Kemmerer, D. (2015). Cognitive neuroscience of language. Psychology Press. <a hr
 Jescheniak, J. D., & Levelt, W. J. (1994). Word frequency effects in speech production: Retrieval of syntactic information and of phonological form. Journal of experimental psychology: learning, Memory, and cognition, 20(4), 824.
 
 Liebenthal, E., Binder, J. R., Spitzer, S. M., Possing, E. T., & Medler, D. A. (2005). Neural substrates of phonemic perception. Cerebral cortex, 15(10), 1621-1631.
-
-<a href="https://ethanweed.github.io/pythonbook/landingpage.html" target="_blank_">Navarro, D. and Weed, E. (2021) _Learning Statistics with Python._</a>
 
 Pa, J., & Hickok, G. (2008). A parietal–temporal sensory–motor integration area for the human vocal tract: Evidence from an fMRI study of skilled musicians. Neuropsychologia, 46(1), 362-368.
 

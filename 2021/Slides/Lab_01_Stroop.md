@@ -135,14 +135,6 @@ Reason #1:  It’s just too easy for us to “believe what we want to believe”
 
 ---
 
-#### Sidebar: How we do know what "feels true"?
-
-<img src="Images/Evans_1983.png" width="40%">
-
-Evans et al (1983)
-
----
-
 ### Second reason...
 
 ##### Berkeley College 1973 admissions data

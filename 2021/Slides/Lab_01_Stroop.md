@@ -66,10 +66,6 @@ Why, why, why???
 
 ---
 
-Is there a place for statistics in your life?
-
----
-
 Because we can't trust ourselves.
 
 ---

@@ -1,3 +1,7 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">   
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+
 # Schedule
 
 ## Note: work in progress!!! This course schedule is not done yet, and is subject to change!!
@@ -223,7 +227,7 @@
     <td class="tg-xu8n"></td>
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br>Secrets of the Censor!</td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br><p style="font-family:'Nosifer', cursive;font-size:16px;font-style:italic;">Secrets of the Censor!</p></td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
   </tr>
 </tbody>

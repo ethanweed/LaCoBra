@@ -112,7 +112,7 @@ Reason #1:  It’s just too easy for us to “believe what we want to believe”
 
 ::::
 :::: {.col}
-xx
+
 ::::
 :::
 

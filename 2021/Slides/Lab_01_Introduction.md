@@ -127,7 +127,7 @@ Source: Bickel et al (1975)
 
 ### Why? Why? Why???
 
-Reason #2: 
+Reason #2:  
 Science is hard, and the truth is sometimes cunningly hidden in the nooks and crannies of complicated data.
 
 ---

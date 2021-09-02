@@ -200,7 +200,7 @@
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">46</span></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
     <td class="tg-acii">Journal club: Exam paper edition 1</td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Your choice! Study groups present an article</span></td>
   </tr>
   <tr>
     <td class="tg-7ppf"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">12</span></td>
@@ -214,7 +214,7 @@
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 2</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">end of semester evaluation</span></td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Your choice! Study groups present an article</span></td>
   </tr>
   <tr>
     <td class="tg-xu8n"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">13</span></td>
@@ -228,7 +228,7 @@
     <td class="tg-acii"></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lab</span></td>
     <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Journal club: Exam paper edition 3</span><br><p style="font-family:'Nosifer', cursive;font-size:16px;font-style:italic;">Secrets of the Censor!</p></td>
-    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">TBA</span></td>
+    <td class="tg-acii"><span style="font-weight:normal;font-style:normal;text-decoration:none">Your choice! Study groups present an article</span></td>
   </tr>
 </tbody>
 </table>

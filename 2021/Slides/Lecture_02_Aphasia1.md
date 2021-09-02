@@ -37,6 +37,7 @@ Expressive Aphasia
 ---
 
 #### Expressive Aphasia:  Production
+::: incremental
 
 1. Nonfluent, sometimes with apraxia of speech and/or
 dysarthria
@@ -50,15 +51,18 @@ determiners, auxiliary verbs, prepositions, suffixes)
 
 5. Reduced syntactic complexity
 
+:::
+
 ---
 
 #### Expressive Aphasia: Comprehension
-
+::: incremental
 1. Relatively preserved understanding of colloquial
 conversation
 
 2. Poor comprehension of some types of syntactically
 complex grammatical constructions
+:::
 
 ---
 

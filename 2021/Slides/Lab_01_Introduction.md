@@ -1,3 +1,11 @@
+<style>
+.container{
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+</style>
 
 ## Why do we learn statistics?
 
@@ -89,6 +97,9 @@ Reason #1:  It’s just too easy for us to “believe what we want to believe”
 
 ##### Berkeley College 1973 admissions data
 
+::: {.container}
+:::: {.col}
+
 | Department | Male Applicants | Male Percent Admitted | Female Applicants | Female Percent Admitted |
 |------------|-----------------|-----------------------|-------------------|-------------------------|
 | A          | 825             | 62%                   | 108               | 82%                     |
@@ -97,6 +108,13 @@ Reason #1:  It’s just too easy for us to “believe what we want to believe”
 | D          | 417             | 33%                   | 375               | 35%                     |
 | E          | 191             | 28%                   | 393               | 24%                     |
 | F          | 272             | 6%                    | 341               | 7%                      |
+
+
+::::
+:::: {.col}
+xx
+::::
+:::
 
 ---
 

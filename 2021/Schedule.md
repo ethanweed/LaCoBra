@@ -178,7 +178,7 @@
     <td class="tg-gs8f"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">10</span></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">45</span></td>
     <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Lecture</span></td>
-    <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Visit to Brain Museum</span></td>
+    <td class="tg-acii"><span style="font-weight:400;font-style:normal;text-decoration:none;color:black">Visit to Brain Museum (DATE MAY CHANGE)</span></td>
     <td class="tg-acii"></td>
   </tr>
   <tr>

@@ -113,7 +113,7 @@ It’s just too easy for us to “believe what we want to believe”.
 
 ::::
 :::: {.col}
-
+   
 ::::
 :::
 

@@ -134,7 +134,7 @@ Lesion overlap: 11 patients with receptive aphasia
 ---
 
 
-Localization: Expressive (Broca’s) vs. Receptive (Wernicke’s) aphasia
+Side by side: Broca’s vs. Wernicke’s aphasia
 
 
 ::: {.container}

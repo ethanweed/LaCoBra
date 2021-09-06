@@ -10,7 +10,7 @@ Why study aphasia?
 
 ---
 
-Broca's aphasia
+### Expressive Aphasia
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6CJWo5TDHLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -78,4 +78,12 @@ Lesion overlap: 36 patients with expressive aphasia
 **![](https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0)**
 
 ---
+
+#### Receptive aphasia
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3oef68YabD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+#### Receptive aphasia
 

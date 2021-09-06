@@ -105,10 +105,13 @@ Carl Wernicke
 
 :::
 
+---
+
 #### Receptive aphasia: Comprehension
 
 Impaired for sentences, phrases, and sometimes even single words
 
+---
 
 #### Receptive aphasia: Repetition
 

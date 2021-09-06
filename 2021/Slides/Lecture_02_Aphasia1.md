@@ -148,3 +148,36 @@ Side by side: Broca’s vs. Wernicke’s aphasia
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1aplTvEQ6ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+The “house” model
+
+::: {.container}
+:::: {.col}
+[... -Lichtheim-Geschwind model ...](https://lh3.googleusercontent.com/gxUOwvlJGgmwUmnIpEWvZJXxLBR9qriOqSxv9c2hV4BJD06OcKyLMf120-6PM3StPA7oS0kmhjWoQRwMceICpUV7YXjzbma0OtrCSr1rJp7x5dTkezIPpbLnS4gC7xwgVMttfTt8n4M=s0)
+::::
+:::: {.col}
+![](https://lh4.googleusercontent.com/MRrTx5uA0JnbtpzcjmXUzHtjNz6E3lV81X3zZhCbzSRZMjQGSPxQN7oT-mLzQblJSeNSrtGjO9sKgobvPMFTpmeJ9l8C6ZJIKbCV34Bt9tDtxLYdYAYuDsrhonrNdThplCKxGP373No=s0)
+::::
+:::
+
+---
+
+::: {.container}
+:::: {.col}
+![](https://lh4.googleusercontent.com/MRrTx5uA0JnbtpzcjmXUzHtjNz6E3lV81X3zZhCbzSRZMjQGSPxQN7oT-mLzQblJSeNSrtGjO9sKgobvPMFTpmeJ9l8C6ZJIKbCV34Bt9tDtxLYdYAYuDsrhonrNdThplCKxGP373No=s0)
+::::
+:::: {.col}
+![](https://lh6.googleusercontent.com/nU3MZa47xjgwZkeeBXkwFPBneE7F2WeOPBaUKVm08sgg4qfEEOVXekFtHddxpbwFDys4YEd1H0Uq1vmfguuY_4ysUEgy4KI4wlBxCNrxEMz0Q2hvAaF-41FAEE-0EF1IxF3ME34IpnM=s0)
+::::
+:::
+
+---
+
+#### References
+
+Kemmerer, D. (2014). _Cognitive neuroscience of language_. Psychology Press.
+
+Rahimpour, S., Haglund, M. M., Friedman, A. H., & Duffau, H. (2019). History of awake mapping and speech and language localization: from modules to networks. _Neurosurgical focus_, _47_(3), E4.

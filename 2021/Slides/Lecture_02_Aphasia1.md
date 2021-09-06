@@ -10,12 +10,19 @@ Why study aphasia?
 
 ---
 
+### Aphasia Diagnostic Criteria
+
+1. Production
+2. Comprehension
+3. Repetition
+
+---
+
 ### Expressive Aphasia
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6CJWo5TDHLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
 
 
 Paul Broca (1824 - 1880)
@@ -24,13 +31,6 @@ Paul Broca (1824 - 1880)
 
 ---
 
-## Aphasia Diagnosis
-
-1. Production
-2. Comprehension
-3. Repetition
-
----
 
 Expressive Aphasia
 
@@ -86,4 +86,11 @@ Lesion overlap: 36 patients with expressive aphasia
 ---
 
 #### Receptive aphasia
+
+Carl Wernicke
+
+**![Other resolutions: 168 × 240 ...](https://lh6.googleusercontent.com/XR4HmIvAbSuVh5sjD2KadKN2DsyM1X2Z7dvXxNXjKtyg7gwT4OpKP7tYb-fTsLGxeTSRVo37yJA7TWJzyirQvdEe33RUry9wyE1r-hTlQ9L3l3wV8dv3Yxa_fWdY_z_ZeHWjianYqbM=s0)**
+
+---
+
 

@@ -94,3 +94,53 @@ Carl Wernicke
 ---
 
 
+#### Receptive aphasia: Production
+
+::: incremental
+
+1. Fluent, sometimes excessively so
+2. Frequent phonemic paraphasias (unintended utterances)
+3. Morphological or syntactic subsitution errors
+4. Often unaware of their own deficits
+
+:::
+
+#### Receptive aphasia: Comprehension
+
+Impaired for sentences, phrases, and sometimes even single words
+
+
+#### Receptive aphasia: Repetition
+
+Disrupted repetition — errors in word choice, phonology and syntax
+
+---
+
+Lesion overlap: 11 patients with receptive aphasia
+
+**![](https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0)**
+
+---
+<style>
+.container{
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+</style>
+
+Localization: Expressive (Broca’s) vs. Receptive (Wernicke’s) aphasia
+
+
+::: {.container}
+:::: {.col}
+**![Other resolutions: 168 × 240 ...](https://lh6.googleusercontent.com/XR4HmIvAbSuVh5sjD2KadKN2DsyM1X2Z7dvXxNXjKtyg7gwT4OpKP7tYb-fTsLGxeTSRVo37yJA7TWJzyirQvdEe33RUry9wyE1r-hTlQ9L3l3wV8dv3Yxa_fWdY_z_ZeHWjianYqbM=s0)**
+::::
+:::: {.col}
+**![](https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0)**
+::::
+:::
+
+---
+

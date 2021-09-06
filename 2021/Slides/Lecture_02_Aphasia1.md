@@ -1,4 +1,12 @@
 # Classic model of aphasia 
+<style>
+.container{
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+</style>
 
 ---
 
@@ -124,14 +132,7 @@ Lesion overlap: 11 patients with receptive aphasia
 **![](https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0)**
 
 ---
-<style>
-.container{
-  display: flex;
-}
-.col {
-  flex: 1;
-}
-</style>
+
 
 Localization: Expressive (Broca’s) vs. Receptive (Wernicke’s) aphasia
 

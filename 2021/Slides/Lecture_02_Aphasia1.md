@@ -70,3 +70,10 @@ complex grammatical constructions
 
 Disrupted, especially for multi-word sequences and
 closed-class items
+
+---
+
+**![](https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0)**
+
+---
+

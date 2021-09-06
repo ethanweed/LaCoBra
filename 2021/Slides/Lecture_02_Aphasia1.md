@@ -156,7 +156,7 @@ The “house” model
 
 ::: {.container}
 :::: {.col}
-[... -Lichtheim-Geschwind model ...](https://lh3.googleusercontent.com/gxUOwvlJGgmwUmnIpEWvZJXxLBR9qriOqSxv9c2hV4BJD06OcKyLMf120-6PM3StPA7oS0kmhjWoQRwMceICpUV7YXjzbma0OtrCSr1rJp7x5dTkezIPpbLnS4gC7xwgVMttfTt8n4M=s0)
+**![](https://lh3.googleusercontent.com/gxUOwvlJGgmwUmnIpEWvZJXxLBR9qriOqSxv9c2hV4BJD06OcKyLMf120-6PM3StPA7oS0kmhjWoQRwMceICpUV7YXjzbma0OtrCSr1rJp7x5dTkezIPpbLnS4gC7xwgVMttfTt8n4M=s0)**
 ::::
 :::: {.col}
 ![](https://lh4.googleusercontent.com/MRrTx5uA0JnbtpzcjmXUzHtjNz6E3lV81X3zZhCbzSRZMjQGSPxQN7oT-mLzQblJSeNSrtGjO9sKgobvPMFTpmeJ9l8C6ZJIKbCV34Bt9tDtxLYdYAYuDsrhonrNdThplCKxGP373No=s0)

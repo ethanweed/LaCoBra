@@ -139,7 +139,7 @@ Localization: Expressive (Broca’s) vs. Receptive (Wernicke’s) aphasia
 
 ::: {.container}
 :::: {.col}
-**![Other resolutions: 168 × 240 ...](https://lh6.googleusercontent.com/XR4HmIvAbSuVh5sjD2KadKN2DsyM1X2Z7dvXxNXjKtyg7gwT4OpKP7tYb-fTsLGxeTSRVo37yJA7TWJzyirQvdEe33RUry9wyE1r-hTlQ9L3l3wV8dv3Yxa_fWdY_z_ZeHWjianYqbM=s0)**
+![](https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0)
 ::::
 :::: {.col}
 **![](https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0)**

@@ -1,3 +1,6 @@
+
+# Research Design
+
 <style>
 .container{
   display: flex;
@@ -6,8 +9,6 @@
   flex: 1;
 }
 </style>
-
-# Research Design
 
 
 ---

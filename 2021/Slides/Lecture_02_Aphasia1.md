@@ -39,7 +39,8 @@ Paul Broca (1824 - 1880)
 
 ---
 
-Marc Dax (1770 - 1837)
+Marc Dax (1770 - 1837)  
+Gustave Dax (1815 - 1893)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Plaque_Marc_Dax_Sommi%C3%A8res.jpg" width = 200 style="transform:rotate(270deg);">
 

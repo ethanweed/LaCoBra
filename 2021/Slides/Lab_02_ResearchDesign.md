@@ -39,14 +39,13 @@
 ### Operationalisation: defining your measurement
 
 :::incremental
--   
-    
-
+-   Defining the set of the allowable values that the measurement can take.
+	-   Response time: how precise?
+	-   Accuracy: how will measure accuracy?
+	-   Labels: how many? which?
+	-   Written responses: how will you code them?
 :::
 
 ---
 
 
--   
-  
--   Defining the set of the allowable values that the measurement can take. Note that these values don’t always have to be numerical, though they often are. When measuring age, the values are numerical, but we still need to think carefully about what numbers are allowed.

@@ -32,29 +32,18 @@ Why study aphasia?
 
 ---
 
-
-
-
-
-
-::: {.container}
-:::: {.col}
 Paul Broca (1824 - 1880)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Paul_Broca_2.jpg/200px-Paul_Broca_2.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Paul_Broca_2.jpg/200px-Paul_Broca_2.jpg" width = 200>
 
-::::
-:::: {.col}
-
-Marc Dax ()
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Plaque_Marc_Dax_Sommi%C3%A8res.jpg" width = 200 style="transform:rotate(270deg);">
-
-::::
-:::
 
 ---
 
+Marc Dax (1770 - 1837)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Plaque_Marc_Dax_Sommi%C3%A8res.jpg" width = 200 style="transform:rotate(270deg);">
+
+---
 
 Expressive Aphasia
 

@@ -81,6 +81,7 @@ Evans et al (1983)
 ### Why? Why? Why???
 
 Reason #1:  
+
 It’s just too easy for us to “believe what we want to believe”.
 
 ---
@@ -107,6 +108,7 @@ Source: Bickel et al (1975)
 ### Why? Why? Why???
 
 Reason #2:  
+
 Science is hard, and the truth is sometimes cunningly hidden in the nooks and crannies of complicated data.
 
 ---
@@ -120,6 +122,7 @@ Science is hard, and the truth is sometimes cunningly hidden in the nooks and cr
 ### Why? Why? Why???
 
 Reason #3:  
+
 The “things” that we study are people, and people are complicated.
 
 ---
@@ -142,6 +145,7 @@ Source: https://www.fda.gov/media/144434/download
 ### Why? Why? Why???
 
 Reason #4:  
+
 Statistical literacy can help us make important life decisions.
 
 ---
@@ -154,6 +158,8 @@ Bickel, P. J., Hammel, E. A., & O'Connell, J. W. (1975). Sex bias in graduate ad
 
 Evans, J. S. B., Barston, J. L., & Pollard, P. (1983). On the conflict between logic and belief in syllogistic reasoning. _Memory & cognition_, _11_(3), 295-306.
 
+Food and Drug Administration. (2020). Vaccines and Related Biological Products Advisory Committee (VRBPAC). FDA briefing document. Silver Spring, MD: US Department of Health and Human Services, _Food and Drug Administration_. https://www.fda.gov/media/144434/downloadexternal icon
+	
 Navarro, D., & Weed, E. (2021). Learning statistics with python: A tutorial for psychology students and other beginners[Available online: https://ethanweed.github.io/pythonbook]
 		
 </font>

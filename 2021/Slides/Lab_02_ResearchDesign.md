@@ -84,7 +84,7 @@ _Possible combinations_
 
 #### Predictor vs Outcome Measures
 
-![]/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/Sandler.png()
+![](/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/Sandler.png)
 
 
 ---

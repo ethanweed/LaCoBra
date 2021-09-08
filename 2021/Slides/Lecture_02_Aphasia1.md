@@ -42,7 +42,7 @@ Paul Broca (1824 - 1880)
 Marc Dax (1770 - 1837)  
 Gustave Dax (1815 - 1893)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Plaque_Marc_Dax_Sommières.jpg/440px-Plaque_Marc_Dax_Sommières.jpg">
+![](/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/Plaque_Marc_Dax.png)
 
 ---
 

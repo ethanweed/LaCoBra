@@ -155,6 +155,8 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 ::::
 :::
 
+Data and stimuli available at : https://osf.io/8vwsp/
+
 ---
 
 #### 1-back test

@@ -106,7 +106,7 @@ _Possible combinations_
 
 Facebook vs. fish
  
- ::: {.container}
+::: {.container}
 :::: {.col}
 
 <img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">

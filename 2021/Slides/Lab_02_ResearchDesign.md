@@ -117,12 +117,12 @@ _Possible combinations_
 ::: {.container}
 :::: {.col}
 
-<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
   
 ::::
 :::: {.col}
 
-
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">
   
 ::::
 :::

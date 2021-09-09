@@ -155,7 +155,6 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 ::::
 :::
 
-Data and stimuli available at : https://osf.io/8vwsp/
 
 ---
 
@@ -165,3 +164,12 @@ Data and stimuli available at : https://osf.io/8vwsp/
 
 ---
 
+
+
+
+---
+
+
+#### References
+
+Aizenberg, O., & naor, danielle. (2017, October 28). Facebook and working memory. Retrieved from osf.io/8vwsp

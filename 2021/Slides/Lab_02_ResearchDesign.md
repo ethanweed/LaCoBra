@@ -260,3 +260,5 @@ Does the experimental setup closely simulate the real world?
 #### References
 
 Aizenberg, O., & naor, danielle. (2017, October 28). Facebook and working memory. Retrieved from osf.io/8vwsp
+
+Wagenmakers, E-J. (2015) Adam Sandler data. Packaged with JASP statistical software (https://jasp-stats.org)

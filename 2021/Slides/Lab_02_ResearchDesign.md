@@ -103,12 +103,17 @@ _Possible combinations_
 
 
 ---
-
- Test
-  
+Facebook vs. fish
+ 
+ ::: {.container}
+:::: {.col}
 <img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
   
+::::
+:::: {.col}
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">
   
- ---
- 
- 
+::::
+:::
+
+---

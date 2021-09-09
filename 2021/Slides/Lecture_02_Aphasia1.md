@@ -42,7 +42,7 @@ Paul Broca (1824 - 1880)
 Marc Dax (1770 - 1837)  
 Gustave Dax (1815 - 1893)
 
-![](Resources/Plaque_Marc_Dax.png)
+<img src="/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/Plaque_Marc_Dax.png" width = 400>
 
 ---
 

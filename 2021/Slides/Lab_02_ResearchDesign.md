@@ -157,7 +157,7 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 ::::
 :::: {.col}
 
-Internal validity: 
+Internal validity:  
 Are there any confounding factors that are _internal_ to the experiment?
   
 ::::
@@ -176,7 +176,7 @@ Are there any confounding factors that are _internal_ to the experiment?
 ::::
 :::: {.col}
 
-External validity: 
+External validity:  
 How generalizable are results from the experiment?
   
 ::::
@@ -196,7 +196,7 @@ How generalizable are results from the experiment?
 ::::
 :::: {.col}
 
-Construct validity: 
+Construct validity:  
 Does the experiment measure what it seeks to measure?
   
 ::::
@@ -214,7 +214,7 @@ Does the experiment measure what it seeks to measure?
 ::::
 :::: {.col}
 
-Face validity: 
+Face validity:  
 Does the experiment seem like it would answer the research question?
   
 ::::
@@ -232,7 +232,7 @@ Does the experiment seem like it would answer the research question?
 ::::
 :::: {.col}
 
-Ecological validity: 
+Ecological validity:  
 Does the experimental setup closely simulate the real world?
   
 ::::

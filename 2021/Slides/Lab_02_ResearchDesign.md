@@ -158,6 +158,7 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 :::: {.col}
 
 Internal validity:  
+<br/>
 Are there any confounding factors that are _internal_ to the experiment?
   
 ::::

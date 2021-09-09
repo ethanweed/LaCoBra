@@ -178,6 +178,7 @@ Are there any confounding factors that are _internal_ to the experiment?
 :::: {.col}
 
 External validity:  
+<br/>
 How generalizable are results from the experiment?
   
 ::::
@@ -198,6 +199,7 @@ How generalizable are results from the experiment?
 :::: {.col}
 
 Construct validity:  
+<br/>
 Does the experiment measure what it seeks to measure?
   
 ::::
@@ -216,6 +218,7 @@ Does the experiment measure what it seeks to measure?
 :::: {.col}
 
 Face validity:  
+<br/>
 Does the experiment seem like it would answer the research question?
   
 ::::

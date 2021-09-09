@@ -13,7 +13,8 @@
 
 ---
 
-### Operationalisation: defining your measurement
+### Operationalisation: 
+#### Define your measurement
 
 :::incremental
 -   Be precise about what you are trying to measure.
@@ -25,7 +26,8 @@
 ---------------------------------------- 
 
 
-### Operationalisation: defining your measurement
+### Operationalisation: 
+#### Define your measurement
 
 :::incremental
 -   Determine what method you will use to measure what you want to measure. 
@@ -36,7 +38,8 @@
 ---------------------------------------- 
 
 
-### Operationalisation: defining your measurement
+### Operationalisation: 
+#### Define your measurement
 
 :::incremental
 -   Define the set of the allowable values that the measurement can take.

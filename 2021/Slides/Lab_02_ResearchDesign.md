@@ -104,26 +104,26 @@ _Possible combinations_
 
 ---
 
-Facebook and Working Memory
+#### Facebook and Working Memory
 
 The purpose of the study was to examine the effect of the use of the social network Facebook on the capacity of working memory. Working memory plays a key role in information processing and cognitive processes.
 
 ---
 
-Facebook and Working Memory
+#### Facebook and Working Memory
 
 Previous studies show that many Facebook users report experiencing flooding of information from using the web. Information overflow is known to impair the working memory function due to its limited capacity. Therefore, we hypothesized that surfing the Facebook network would create a load on working memory capacity and thus lead to a decrease in working memory function.
 
 ---
 
-Facebook and Working Memory
+#### Facebook and Working Memory
 
 Under the conditions of the experiment, 20 subjects watched a video simulating surfing Facebook, and then performed a 2-back task that examines working memory capacity. Under the control condition, subjects watched a neutral video and then performed a 2-back task at the same difficulty level. The experiment was within subjects with a random order of conditions.
 
 ---
 
 
-Facebook vs. Fish
+#### Facebook vs. Fish
  
 ::: {.container}
 :::: {.col}
@@ -140,7 +140,7 @@ Facebook vs. Fish
 
 ---
 
-1-back test
+#### 1-back test
 
 <img src="/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/1-back-design.png">
 

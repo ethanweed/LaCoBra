@@ -104,6 +104,23 @@ _Possible combinations_
 
 ---
 
+#### Facebook vs. Fish
+ 
+::: {.container}
+:::: {.col}
+
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+  
+::::
+:::: {.col}
+
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">
+  
+::::
+:::
+
+---
+
 #### Facebook and Working Memory
 
 The purpose of the study was to examine the effect of the use of the social network Facebook on the capacity of working memory. Working memory plays a key role in information processing and cognitive processes.

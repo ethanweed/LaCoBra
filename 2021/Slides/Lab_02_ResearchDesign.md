@@ -117,7 +117,7 @@ _Possible combinations_
 ::: {.container}
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
   
 ::::
 :::: {.col}

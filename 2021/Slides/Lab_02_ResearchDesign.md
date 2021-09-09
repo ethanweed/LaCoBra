@@ -122,7 +122,7 @@ _Possible combinations_
 ::::
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">
   
 ::::
 :::
@@ -160,8 +160,8 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 ::: {.container}
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">  
 ::::
 :::: {.col}
 
@@ -180,8 +180,8 @@ Are there any confounding factors that are _internal_ to the experiment?
 ::: {.container}
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">   
 ::::
 :::: {.col}
 
@@ -201,8 +201,8 @@ How generalizable are results from the experiment?
 ::: {.container}
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">  
 ::::
 :::: {.col}
 
@@ -220,8 +220,8 @@ Does the experiment measure what it seeks to measure?
 ::: {.container}
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">  
 ::::
 :::: {.col}
 
@@ -239,8 +239,8 @@ Does the experiment seem like it would answer the research question?
 ::: {.container}
 :::: {.col}
 
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/facebook.gif?raw=true">
+<img src="https://github.com/ethanweed/ExPsyLing/blob/master/2021/Resources/fish.gif?raw=true">  
 ::::
 :::: {.col}
 

@@ -140,23 +140,6 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 ---
 
 
-#### Facebook vs. Fish
- 
-::: {.container}
-:::: {.col}
-
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
-  
-::::
-:::: {.col}
-
-<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">
-  
-::::
-:::
-
-
----
 
 #### 1-back test
 
@@ -164,11 +147,93 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 
 ---
 
+#### Validity
+ 
+::: {.container}
+:::: {.col}
 
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+::::
+:::: {.col}
+
+Internal validity: are there any confounding factors that are _internal_ to the experiment?
+  
+::::
+:::
 
 
 ---
 
+#### Validity
+ 
+::: {.container}
+:::: {.col}
+
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+::::
+:::: {.col}
+
+External validity: how generalizable are results from the experiment?
+  
+::::
+:::
+
+
+---
+
+
+#### Validity
+ 
+::: {.container}
+:::: {.col}
+
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+::::
+:::: {.col}
+
+Construct validity: does the experiment measure what it seeks to measure?
+  
+::::
+:::
+
+---
+
+#### Validity
+ 
+::: {.container}
+:::: {.col}
+
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+::::
+:::: {.col}
+
+Face validity: does the experiment seem like it would answer the research question?
+  
+::::
+:::
+
+---
+
+#### Validity
+ 
+::: {.container}
+:::: {.col}
+
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/facebook.gif">
+<img src="/Users/ethan/Documents/GitHub/ExPsyLing/2021/Resources/fish.gif">  
+::::
+:::: {.col}
+
+Ecological validity: does the experimental setup closely simulate the real world?
+  
+::::
+:::
+
+---
 
 #### References
 

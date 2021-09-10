@@ -263,8 +263,10 @@ Hinkelmann & Kempthorne (2007)
 
 #### References
 
+<font size="1"> 
 Aizenberg, O., & naor, danielle. (2017, October 28). Facebook and working memory. Retrieved from osf.io/8vwsp
 
 Hinkelmann, K., & Kempthorne, O. (2007). Design and analysis of experiments, volume 1: Introduction to experimental design (Vol. 592). John Wiley & Sons.
 
 Wagenmakers, E-J. (2015) Adam Sandler data. Packaged with JASP statistical software (https://jasp-stats.org)
+</font> 

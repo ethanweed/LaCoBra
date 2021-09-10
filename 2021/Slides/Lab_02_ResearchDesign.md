@@ -257,7 +257,7 @@ Does the experimental setup closely simulate the real world?
 
 <img src="https://lh5.googleusercontent.com/wOGT16KzzKxooBeCbWM7F2ryeH1sIlBdR8hAerqNOJWrJ-0JaZ6zVS-TPXg0L5tnh30PofFwg1y9EgArG8Sod5-2fWcN9bCsTgZorirBEufN4DEH6fyq1IYqzOu1Dl23Pf0XD91bjiA=s0" width="400">
 
-Hinkelmann, K., & Kempthorne, O. (2007)
+Hinkelmann & Kempthorne (2007)
 
 ---
 

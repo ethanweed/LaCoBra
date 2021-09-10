@@ -151,7 +151,7 @@ Under the conditions of the experiment, 20 subjects watched a video simulating s
 
 #### 2-back test
 
-<img src="/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/1-back-design.png">
+![](/Users/ethan/Documents/GitHub/LaCoBra/2021/Resources/2_back_design.png)
 
 ---
 

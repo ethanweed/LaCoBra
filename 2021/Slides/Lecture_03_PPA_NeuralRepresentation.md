@@ -44,3 +44,13 @@
 
 ---
 
+**Neural representation**
+
+---
+
+**Neurons: Cells that think?**
+
+**![](https://lh5.googleusercontent.com/PHzHiw8OCNghMH-GiW49-i5KjqegE3amB9JFgcePRB6JleMH5Fae241CXVkVrIjmFdXBxG3-SaZauPTQYqCVS4AJHm_rCfcasSvS6nOFCHU-PesfmOR2b9C7XsLFdXUVnAfycZRSBlU=s0)**
+
+---
+

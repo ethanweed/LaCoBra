@@ -82,7 +82,7 @@ David Hubel & Torsten Wiesel (1981 Nobel Prize)
 
 **Primary Progressive Aphasia Syndromes**
 
--Progressive nonfluent/agrammatic aphasia (motor planning, production)
+- Progressive nonfluent/agrammatic aphasia (motor planning, production)
 - Semantic dementia (word meaning)
 - Logopenic progressive aphasia (naming and sentence repetition)
 

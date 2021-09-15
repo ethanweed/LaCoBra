@@ -22,6 +22,10 @@ pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lectu
 
 pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_02_Aphasia1.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_02_Aphasia1.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
 
+pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_03_Primary Progessive Aphasia + Neural Representation.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_03_Primary Progessive Aphasia + Neural Representation.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
+
+
+
 ## Lab Slides
 
 pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_01_Stroop.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_01_Stroop.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/

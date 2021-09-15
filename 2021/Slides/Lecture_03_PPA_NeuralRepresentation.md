@@ -54,3 +54,75 @@
 
 ---
 
+**Neurons: Cells that think?**
+
+**![](https://lh6.googleusercontent.com/lVRh4La1i3JjsceCyhTWycWEGABecNoOvHPZEbFHsJ-cOUVkdpy1SjyoH163IGNblQa-AotB6YNuIUM0bm3kP13phwHtwsCwkg33T64553eSoFV6JuFkhQRioqTFRP3xfzihPsXxn4k=s0)**
+
+---
+
+**Representation: mapping the external world internally**
+
+**![](https://lh6.googleusercontent.com/PvSK8BKM85tf1heLRiIhfPiUEqgorr1EYZqm8l2qUpW7olUc5vwbBAQgCsXLfWJWiQR5ctdn3hIXx-8m-fP0R4bPHQ-Ye0cDFXB_mpTfXMO9AGStFgDXiqP_woUBHKv1PQ9C22ad_s0=s0)**
+
+---
+
+::: {.container}
+:::: {.col}
+
+**Representation: mapping the external world internally**
+David Hubel & Torsten Wiesel (1981 Nobel Prize)
+
+::::
+:::: {.col}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8VdFf3egwfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+::::
+:::
+
+---
+
+**Primary Progressive Aphasia Syndromes**
+
+-Progressive nonfluent/agrammatic aphasia (motor planning, production)
+- Semantic dementia (word meaning)
+- Logopenic progressive aphasia (naming and sentence repetition)
+
+---
+
+
+**Semantic dementia**
+
+**![](https://lh4.googleusercontent.com/0Q6rKOEVmItd50Dx8rMxur4Cw9OGTH7rN6vwllYK2OlEzt97F8BYXYObhXxQ8gqhOQLDlgSKeVS5V82NEni99dEEXvV3Zu-68k8rmeN3x3hyHSf3fDoBbS-_ZSnNTA8Kn_uG-c2lhls=s0)**
+
+---
+
+**Semantic dementia and language localization**
+
+**![](https://lh5.googleusercontent.com/G6J8CjpgB-c8qomTJvOPKRvwE06f1O_Srfvo_3BczNWssJs0AycM0-18cuqKe7xiyDGMKzMHuyA8xLp8WBtD1imTA5rILgsDgrHfMrHeyRQkz8fBKS37DTd7CbqDvPDSRCsALbYA9Qo=s0)**
+
+---
+
+::: {.container}
+:::: {.col}
+
+**Semantic dementia**
+
+::::
+:::: {.col}
+**![](https://lh4.googleusercontent.com/2L3T46Gux1SqD_4uQiaeg1TTPgVBWQwOI23YEfehKCjozXzUNcaRtyDrSOIM0ipYPvbH3poYUr9S8ol4XHTahINAwAXi8K_LYUi1kN_sNryrK7P8T6IY7oeD_o572VPEwNsxQOJhNvU=s0)**
+::::
+:::
+
+---
+
+**Temporary aphasia?**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0ITJDkDaY2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---
+
+**References**
+
+Hubel, D. H., & Wiesel, T. N. (1962). Receptive fields, binocular interaction and functional architecture in the cat's visual cortex. _The Journal of physiology_, _160_(1), 106-154.
+
+Kemmerer, D. (2014). _Cognitive neuroscience of language_. Psychology Press.

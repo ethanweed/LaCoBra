@@ -56,7 +56,7 @@
 
 **Neurons: Cells that think?**
 
-**![](https://lh6.googleusercontent.com/lVRh4La1i3JjsceCyhTWycWEGABecNoOvHPZEbFHsJ-cOUVkdpy1SjyoH163IGNblQa-AotB6YNuIUM0bm3kP13phwHtwsCwkg33T64553eSoFV6JuFkhQRioqTFRP3xfzihPsXxn4k=s0)**
+<img src="https://lh6.googleusercontent.com/lVRh4La1i3JjsceCyhTWycWEGABecNoOvHPZEbFHsJ-cOUVkdpy1SjyoH163IGNblQa-AotB6YNuIUM0bm3kP13phwHtwsCwkg33T64553eSoFV6JuFkhQRioqTFRP3xfzihPsXxn4k=s0" width="400">
 
 ---
 

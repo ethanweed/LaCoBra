@@ -22,7 +22,7 @@ pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lectu
 
 pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_02_Aphasia1.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_02_Aphasia1.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
 
-pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_03_PPA _NeuralRepresentation.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_03_PPA _NeuralRepresentation.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
+pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_03_PPA_NeuralRepresentation.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_03_PPA_NeuralRepresentation.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
 
 
 

@@ -66,7 +66,8 @@
 
 ---
 
-**Representation: mapping the external world internally**
+**Representation:  
+mapping the external world internally**
 
 <img src="https://lh6.googleusercontent.com/PvSK8BKM85tf1heLRiIhfPiUEqgorr1EYZqm8l2qUpW7olUc5vwbBAQgCsXLfWJWiQR5ctdn3hIXx-8m-fP0R4bPHQ-Ye0cDFXB_mpTfXMO9AGStFgDXiqP_woUBHKv1PQ9C22ad_s0=s0" width="400">
 

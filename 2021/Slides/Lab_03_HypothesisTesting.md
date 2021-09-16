@@ -48,6 +48,6 @@
 
 **One-sample t-test**
 
-t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}"
+t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}
 	
 ---

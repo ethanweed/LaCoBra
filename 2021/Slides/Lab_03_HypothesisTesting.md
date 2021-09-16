@@ -39,3 +39,7 @@
 
 ---
 
+|             | retain H0                                     | reject H0                     |
+|-------------|-----------------------------------------------|-------------------------------|
+| H0 is true  | $1-\alpha$ (probability of correct retention) | $\alpha$ (type I error rate)  |
+| H0 is false | $\beta$ (type II error rate)                  | $1-\beta$  (power of the test)|

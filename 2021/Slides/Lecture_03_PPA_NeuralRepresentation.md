@@ -1,3 +1,7 @@
+
+
+## Primary Progressive Aphasia & Neural Representation
+
 <style>
 .container{
   display: flex;
@@ -6,8 +10,6 @@
   flex: 1;
 }
 </style>
-
-## Primary Progressive Aphasia & Neural Representation
 
 ---
 

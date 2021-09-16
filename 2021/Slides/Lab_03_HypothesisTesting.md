@@ -48,6 +48,6 @@
 
 **One-sample t-test**
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}">
+t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}"
 	
 ---

@@ -111,16 +111,13 @@ mapping the external world internally**
 
 ---
 
-::: {.container}
-:::: {.col}
+
 
 **Semantic dementia**
 
-::::
-:::: {.col}
+
 **![](https://lh4.googleusercontent.com/2L3T46Gux1SqD_4uQiaeg1TTPgVBWQwOI23YEfehKCjozXzUNcaRtyDrSOIM0ipYPvbH3poYUr9S8ol4XHTahINAwAXi8K_LYUi1kN_sNryrK7P8T6IY7oeD_o572VPEwNsxQOJhNvU=s0)**
-::::
-:::
+
 
 ---
 

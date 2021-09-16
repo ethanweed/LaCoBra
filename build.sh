@@ -34,6 +34,7 @@ pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_0
 
 pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_02_ResearchDesign.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_02_ResearchDesign.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
 
+pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_03_HypothesisTesting.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lab_03_HypothesisTesting.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
 
 
 

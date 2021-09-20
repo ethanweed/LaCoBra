@@ -1,6 +1,6 @@
 # Assignment: make 5 quiz questions
 
-One last time! Please send 4 questions per group, based on Kemmerer pages 21-26. 
+One last time! Please send 4 questions per group, based on Kemmerer pages 21-27. 
 
 Each question should have 4 multiple choice answers. 
 

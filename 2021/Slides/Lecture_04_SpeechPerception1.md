@@ -60,3 +60,40 @@
 
 ---
 
+**Dual stream model (Hickok & Poeppel)**
+
+::: {.container}
+:::: {.col}
+
+![](https://lh5.googleusercontent.com/uQYUSl9-sPsWtMYIti0SIEci-CwiWTJfeCGgOfc3y04CzTRtorEqCZi5DjarZEbJ5maEwtdJDcyPRLtLZVrMj3mCrR0pBq0R9Al_-a2pQ0tk-Pqky4afG6shM6Cs9CP1eG7lohEHyOw=s0)
+
+::::
+:::: {.col}
+
+![](https://lh3.googleusercontent.com/eXx-AO_oUAoegPuYDAZhNiVEthKEmzgDpl020jJZsR9YH2xROnA09ADUjOrcqGAGG8XvyXSIvwkoA6sJ2KoqoYt57qaT16JXBPlK_Ol9BCwc7HCdKSH57x4lntezclAYVJQGeLXeTmk=s0)
+
+::::
+:::
+
+---
+
+**“Phonology” in the brain**
+
+::: {.container}
+:::: {.col}
+
+- Conversion from analog to digital
+- Hierarchical pattern detection
+- Evidence from animals: tonal scream
+
+
+::::
+:::: {.col}
+
+![](https://lh5.googleusercontent.com/81X-W3QATH2yWVEWevT2VVi0P3jqS0Ph4syIJPL5LQhuxHeA7F_4vkV3ltDBde1QYBat4xDPn2iLoYJJS9H3qdsMua8bR6J772N4B7i1RRhIsUOAugOyExU-dGVppqMW_4yBZ_-G2pQ=s0)
+
+::::
+:::
+
+---
+

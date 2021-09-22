@@ -119,7 +119,9 @@
 
 ::: {.container}
 :::: {.col}
-
+<br>
+<br>
+<br>
 - Time sequence
 - Hierarchical neural representation
 - Analog to digital

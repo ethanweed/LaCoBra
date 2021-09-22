@@ -120,7 +120,9 @@
 ::: {.container}
 :::: {.col}
 
-**![](https://lh4.googleusercontent.com/hvhZ6MP6pf5_hvkEWKwrjMOrdukGY-OfuLHW7xEl2x5s_rV9-8TymKpOA28AewZIO7TyOzuY61Ac2rxVt_JpjwQIPfqACqrB-iAQwBy5g-Ue88ekL1wLdEtB_wjoDhyJ1o9D8ndOgH4=s0)**
+- Time sequence
+- Hierarchical neural representation
+- Analog to digital
 
 ::::
 :::: {.col}

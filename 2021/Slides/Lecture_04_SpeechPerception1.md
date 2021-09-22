@@ -143,12 +143,12 @@
 ::: {.container}
 :::: {.col}
 
-<img src="https://lh4.googleusercontent.com/vcWbBaF5Z8ZjZe1j28HR6Qid5G_kFQwi8-Bgu9zCu3XfRc_7kFV-VlpDPgkOdnfCRm4ZTJi3cLjMjg1uNJahv_Z6EQxLaH3fb_PGZqXaevQ4_k35ROLhnVbMH1rlH-R-8rcatq6ie5k=s0" width="300">
+<img src="https://lh4.googleusercontent.com/vcWbBaF5Z8ZjZe1j28HR6Qid5G_kFQwi8-Bgu9zCu3XfRc_7kFV-VlpDPgkOdnfCRm4ZTJi3cLjMjg1uNJahv_Z6EQxLaH3fb_PGZqXaevQ4_k35ROLhnVbMH1rlH-R-8rcatq6ie5k=s0" width="350">
 
 ::::
 :::: {.col}
 
-<img src="https://lh3.googleusercontent.com/FSZZgvb6akSSq4vg845plMwI_IfW70pF-c4EDX3fXe5hB5QxxpSNJBbNdnMlcB_7Bjox_AsqLuX2mUX7e5QvSoLdBKX-NZu2HP07R2lToHIkO8h1Cq9yTuwswWTHEZ7FuC-YqNB01uI=s0" width="300">
+<img src="https://lh3.googleusercontent.com/FSZZgvb6akSSq4vg845plMwI_IfW70pF-c4EDX3fXe5hB5QxxpSNJBbNdnMlcB_7Bjox_AsqLuX2mUX7e5QvSoLdBKX-NZu2HP07R2lToHIkO8h1Cq9yTuwswWTHEZ7FuC-YqNB01uI=s0" width="350">
 
 ::::
 :::

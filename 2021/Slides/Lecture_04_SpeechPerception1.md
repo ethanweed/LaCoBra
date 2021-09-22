@@ -115,16 +115,61 @@
 
 ---
 
+**Computational model of monkey “phonology”**
+
+::: {.container}
+:::: {.col}
+
+**![](https://lh4.googleusercontent.com/hvhZ6MP6pf5_hvkEWKwrjMOrdukGY-OfuLHW7xEl2x5s_rV9-8TymKpOA28AewZIO7TyOzuY61Ac2rxVt_JpjwQIPfqACqrB-iAQwBy5g-Ue88ekL1wLdEtB_wjoDhyJ1o9D8ndOgH4=s0)**
+
+::::
+:::: {.col}
+
+**![](https://lh4.googleusercontent.com/hvhZ6MP6pf5_hvkEWKwrjMOrdukGY-OfuLHW7xEl2x5s_rV9-8TymKpOA28AewZIO7TyOzuY61Ac2rxVt_JpjwQIPfqACqrB-iAQwBy5g-Ue88ekL1wLdEtB_wjoDhyJ1o9D8ndOgH4=s0)**
+
+::::
+:::
+
+---
+
+**Something similar in humans?**
+
+::: {.container}
+:::: {.col}
+
+**![](https://lh4.googleusercontent.com/vcWbBaF5Z8ZjZe1j28HR6Qid5G_kFQwi8-Bgu9zCu3XfRc_7kFV-VlpDPgkOdnfCRm4ZTJi3cLjMjg1uNJahv_Z6EQxLaH3fb_PGZqXaevQ4_k35ROLhnVbMH1rlH-R-8rcatq6ie5k=s0)**
+
+::::
+:::: {.col}
+
+**![](https://lh4.googleusercontent.com/hvhZ6MP6pf5_hvkEWKwrjMOrdukGY-OfuLHW7xEl2x5s_rV9-8TymKpOA28AewZIO7TyOzuY61Ac2rxVt_JpjwQIPfqACqrB-iAQwBy5g-Ue88ekL1wLdEtB_wjoDhyJ1o9D8ndOgH4=s0)**
+
+::::
+:::
+
+---
+
+**Cortical “phonology” areas?**
+
+::: {.container}
+:::: {.col}
+
+- 7 fMRI studies
+- Sublexical vs. nonspeech sounds
+- High vs. low “neighborhood density”
 
 
+::::
+:::: {.col}
 
+**![](https://lh4.googleusercontent.com/CHSuntgZOFATB2hB0Ch7VIF0F6DqgOQXxXX-soHy1m7gf9URUM4m6Cwi7Kg1zfixbOL4Azmw3uksTcBaIVDTtXvxtY0vz2hYq_ePCupiIpsd82c3R_KB8Z0M6tOvzvcwC6udn9m8qDA=s0)**
 
-
+::::
+:::
 
 
 ---
 
 #### References
 
-
-
+Kemmerer, D. (2014). _Cognitive neuroscience of language_. Psychology Press.

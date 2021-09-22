@@ -107,7 +107,7 @@
 ::::
 :::: {.col}
 
-<img src="https://lh3.googleusercontent.com/FSZZgvb6akSSq4vg845plMwI_IfW70pF-c4EDX3fXe5hB5QxxpSNJBbNdnMlcB_7Bjox_AsqLuX2mUX7e5QvSoLdBKX-NZu2HP07R2lToHIkO8h1Cq9yTuwswWTHEZ7FuC-YqNB01uI=s0" width="500">
+<img src="https://lh3.googleusercontent.com/FSZZgvb6akSSq4vg845plMwI_IfW70pF-c4EDX3fXe5hB5QxxpSNJBbNdnMlcB_7Bjox_AsqLuX2mUX7e5QvSoLdBKX-NZu2HP07R2lToHIkO8h1Cq9yTuwswWTHEZ7FuC-YqNB01uI=s0" width="400">
 
 ::::
 :::

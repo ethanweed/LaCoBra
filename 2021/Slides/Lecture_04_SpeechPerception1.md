@@ -167,6 +167,24 @@
 ::::
 :::
 
+---
+
+**Cortical “phonology” areas in the dual stream model**
+
+::: {.container}
+:::: {.col}
+
+![](https://lh3.googleusercontent.com/eXx-AO_oUAoegPuYDAZhNiVEthKEmzgDpl020jJZsR9YH2xROnA09ADUjOrcqGAGG8XvyXSIvwkoA6sJ2KoqoYt57qaT16JXBPlK_Ol9BCwc7HCdKSH57x4lntezclAYVJQGeLXeTmk=s0)
+
+
+::::
+:::: {.col}
+
+**![](https://lh4.googleusercontent.com/CHSuntgZOFATB2hB0Ch7VIF0F6DqgOQXxXX-soHy1m7gf9URUM4m6Cwi7Kg1zfixbOL4Azmw3uksTcBaIVDTtXvxtY0vz2hYq_ePCupiIpsd82c3R_KB8Z0M6tOvzvcwC6udn9m8qDA=s0)**
+
+::::
+:::
+
 
 ---
 

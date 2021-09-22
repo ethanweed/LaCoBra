@@ -97,7 +97,7 @@
 
 ---
 
-**[Rhesus macaque communication]**(http://www.nc3rs.org.uk/macaques/macaques/behaviour-and-communication/#)
+[Rhesus macaque communication](http://www.nc3rs.org.uk/macaques/macaques/behaviour-and-communication/#)
 
 ::: {.container}
 :::: {.col}

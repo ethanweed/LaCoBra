@@ -19,7 +19,7 @@ pandoc --standalone /Users/ethan/Documents/GitHub/LaCoBra/2021/Assignments/Assig
 ## Lecture Slides
 
 # Lecture 1
-pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_01_Introduction.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_01_Introduction.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
+pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_01_Introduction.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_01_Introduction.md -V revealjs-url=https://unpkg.com/reveal.js/
 
 # Lecture 2
 pandoc -t revealjs -s -o /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_02_Aphasia1.html /Users/ethan/Documents/GitHub/LaCoBra/2021/Slides/Lecture_02_Aphasia1.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/

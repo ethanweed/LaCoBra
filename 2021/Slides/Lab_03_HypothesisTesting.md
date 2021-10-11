@@ -48,6 +48,9 @@
 
 **One-sample t-test**
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6568a8744ea852a3d1a0cc5e2080723217b4b7ba" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.838ex; width:11.4ex; height:6.176ex;" alt="{\displaystyle t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}"/>
-	
+$$
+{\displaystyle t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}
+$$
+
+
 ---

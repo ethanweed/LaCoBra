@@ -49,7 +49,9 @@
 **One-sample t-test**
 
 $$
+
 {\displaystyle t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}
+
 $$
 
 

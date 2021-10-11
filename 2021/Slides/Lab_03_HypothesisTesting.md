@@ -50,7 +50,7 @@
 
 $$
 
-{\displaystyle t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}
+{\displaystyle t={\frac {{\bar {x}}-\mu _{0}}{s/{\sqrt {n}}}}}
 
 $$
 

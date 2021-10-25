@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021/Slides/Lab_03_HypothesisTesting.md",
+            "file": "2021/Schedule.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021/Slides/Lab_03_HypothesisTesting.md",
+                "file": "2021/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "b15b0c65fb66a8b1",
   "lastOpenFiles": [
+    "2021/Schedule.md",
     "2021/Slides/Lab_03_HypothesisTesting.md",
     "Render to html.md",
     "2021/Slides/Lecture_04_SpeechPerception1.md",
@@ -96,7 +97,6 @@
     "2021/Slides/Lecture_04_AuditoryPerception1.md",
     "Untitled.md",
     "2021/Assignments/Assignment_03_NeuroanatomyQuiz.md",
-    "2021/Assignments/Assignment_02_NeuroanatomyQuiz.md",
-    "2021/Schedule.md"
+    "2021/Assignments/Assignment_02_NeuroanatomyQuiz.md"
   ]
 }

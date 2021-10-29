@@ -20,7 +20,7 @@ Kemmerer, D. (2015). Cognitive neuroscience of language. Psychology Press. <a hr
 Beilock, S. L., Lyons, I. M., Mattarella-Micke, A., Nusbaum, H. C., & Small, S. L. (2008). Sports experience changes the neural processing of action language. Proceedings of the National Academy of Sciences, 105(36), 13269-13273.
 
 <a href="https://link.springer.com/content/pdf/10.1007%2F978-94-007-7954-9_3.pdf" target="_blank">Cummings, L. (2014). Clinical pragmatics. Cambridge University Press. Chapter 3.</a>
-
+	
 Jescheniak, J. D., & Levelt, W. J. (1994). Word frequency effects in speech production: Retrieval of syntactic information and of phonological form. Journal of experimental psychology: learning, Memory, and cognition, 20(4), 824.
 
 Liebenthal, E., Binder, J. R., Spitzer, S. M., Possing, E. T., & Medler, D. A. (2005). Neural substrates of phonemic perception. Cerebral cortex, 15(10), 1621-1631.

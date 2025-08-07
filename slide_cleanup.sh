@@ -90,15 +90,10 @@ if [ -n "$html_files" ]; then
         mv "$html_file" "$new_filepath"
         echo "Renamed and moved: $html_file -> $new_filepath"
 
-        # Delete the export folder if it's empty
+        # Always remove the export folder
         if [ -d "$html_dir" ]; then
-            if [ -z "$(ls -A "$html_dir" 2>/dev/null)" ]; then
-                rmdir "$html_dir"
-                echo "Removed empty export folder: $html_dir"
-            else
-                echo "Warning: Export folder not empty, skipping deletion: $html_dir"
-                echo "Contents: $(ls -la "$html_dir")"
-            fi
+            rm -rf "$html_dir"
+            echo "Removed export folder: $html_dir"
         fi
     done
 else
@@ -109,4 +104,4 @@ echo ""
 echo "✅ Consolidation and reorganization complete!"
 echo "📁 Shared libs folder: ./slides/shared-libs"
 echo "🔗 HTML files renamed and moved to slides directories"
-echo "🗑️  Empty export folders removed"
+echo "🗑️  All export folders removed"

@@ -62,3 +62,31 @@
         gap: 1rem;
     }
 }
+
+/* Hyperlink styling for better visibility */
+.reveal a {
+    color: #736767;
+}
+
+.reveal a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.reveal a:visited {
+    color: #8a2be2;
+}
+
+
+.reveal figure {
+    margin: 1em 0;
+}
+
+.reveal figcaption {
+    text-align: left;
+    font-size: 0.7em;
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5em;
+}
+

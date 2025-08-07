@@ -7,70 +7,147 @@ customTheme: "custom-styles"
 ---
 
 
-# Data collection: Stroop task
+## Data collection: Stroop task
 
-<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop.png?raw=true" alt="" width="700">
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop.png?raw=true" alt="" width="100">
 
----
+--
 
-Each person does all 4 tasks, then on to the next person
+## Instructions
 
----
-
-1.  Time-taker records time for each whole task.
-2.  Enter each person’s data in the raw data task
-3.  Leave room for other groups
-4.  Mark if the participant is NOT a native Danish speaker
-5.  Add any other notes you might think are relevant
-6.  Have fun!
-
----
-
-One the first slide...
-
-read all the words
+1. <span class="fragment">Time-taker records time for each whole task.</span>
+2. <span class="fragment">Enter each person’s time for each task in the <a href="https://docs.google.com/spreadsheets/d/1urHcUPbsp4HV2pRF_29S-AtcOu4VZ1X4j5SRVA9V3M8/edit?usp=sharing">data spreadsheet</a>
+</span>
+3. <span class="fragment">Leave room for other groups</span>
+4. <span class="fragment">Mark if the participant is NOT a native Danish speaker</span>
+5. <span class="fragment">Add any other notes you might think are relevant</span>
+6. <span class="fragment">Each person does all 4 tasks, then on to the next person</span>
+7. <span class="fragment">Have fun!</span>
 
 ---
+
+## Data collection start...
+
+--
+
+For the first task...
+
+*read all the words*
+
+--
 
 <img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop1_reading_noint.png?raw=true" alt="" width="700">
 
 
----
+--
 
-On the next slide...
+For the next task...
 
-say the color that the words are printed in
+*say the color that the words are printed in*
 
----
+--
 
 <img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop2_naming_int.png?raw=true" alt="" width="700">
 
 
----
+--
 
-On the next slide...
+For the next task...
 
-say the color that the symbols are printed in
+*say the color that the symbols are printed in*
 
----
+--
 
 <img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop3_naming_noint.png?raw=true" alt="" width="700">
 
 
----
+--
 
-On the next slide...
+For the last task...
 
-read all the words
+*read all the words*
 
----
+--
+
 
 <img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop4_reading_int.png?raw=true" alt="" width="700">
 
+--
+
+### Enter data [here](https://docs.google.com/spreadsheets/d/1urHcUPbsp4HV2pRF_29S-AtcOu4VZ1X4j5SRVA9V3M8/edit?usp=sharing)
 
 ---
 
+### The [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect)
 
+<div class="two-columns">
+
+<div class="column">
+
+**Language**
+
+**Cognition**
+
+**Brain**
+</div>
+
+
+<div class="column">
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop.png?raw=true" alt="" width="100">
+</div>
+
+</div>
+
+--
+
+
+### The [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect)
+
+<div class="two-columns">
+
+<div class="column">
+
+
+<figure>
+    <img src="https://alchetron.com/cdn/john-ridley-stroop-e8237782-12b2-41a9-85bc-affa422bdea-resize-750.jpeg" alt="" width=200>
+    <figcaption>John Ridley Stroop (1897-1973)</figcaption>
+    <figcaption>Image: https://alchetron.com</figcaption>
+</figure>
+
+
+
+</div>
+
+
+<div class="column">
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Stroop-fig1-exp2.jpg" alt="" width="500">
+    <figcaption>Fig 1 from Stroop (1935)</figcaption>
+</figure>
+
+</div>
+
+</div>
+
+--
+
+### The [Stroop effect](https://en.wikipedia.org/wiki/Stroop_effect)
+
+<div class="two-columns">
+
+<div class="column">
+
+**Language**
+
+**Cognition**
+
+**Brain**
+</div>
+
+<div class="column">
+</div>
+
+</div>
 
 ---
 

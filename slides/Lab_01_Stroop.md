@@ -1,5 +1,5 @@
 ---
-title: "Lecture_01_Introduction"
+title: "Lab_01_Stroop"
 theme: "serif"
 transition: "slide"
 highlightTheme: "github"

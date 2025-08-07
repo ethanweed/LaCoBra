@@ -48,15 +48,6 @@ if [ -n "$html_files" ]; then
         html_dir=$(dirname "$html_file")
         slides_dir=$(dirname "$html_dir")  # This should be the slides directory
 
-        # Update HTML references to shared-libs
-        if [[ "$OSTYPE" == "darwin"* ]]; then
-            # macOS version
-            sed -i "" 's|libs/|../shared-libs/|g' "$html_file"
-        else
-            # Linux version
-            sed -i 's|libs/|../shared-libs/|g' "$html_file"
-        fi
-
         # Extract title from HTML file
         title=$(grep -i '<title>' "$html_file" | sed 's/<[^>]*>//g' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
 
@@ -65,10 +56,9 @@ if [ -n "$html_files" ]; then
             title="presentation"
         fi
 
-        # Sanitize title for filename (replace spaces with hyphens, remove special chars)
+        # Sanitize title for filename
         sanitized_title=$(echo "$title" | sed 's/[[:space:]]\+/-/g' | sed 's/[^a-zA-Z0-9._-]//g' | sed 's/^-\+\|-\+$//g')
 
-        # Ensure we have a valid filename
         if [ -z "$sanitized_title" ]; then
             sanitized_title="presentation"
         fi
@@ -79,20 +69,29 @@ if [ -n "$html_files" ]; then
 
         # Handle filename conflicts
         counter=1
-        original_new_filepath="$new_filepath"
         while [ -f "$new_filepath" ]; do
             new_filename="${sanitized_title}-${counter}.html"
             new_filepath="${slides_dir}/${new_filename}"
             counter=$((counter + 1))
         done
 
+        # Calculate relative path from final location to shared-libs
+        # From slides/ to slides/shared-libs/ = shared-libs/
+        relative_path="shared-libs/"
+
+        # Update HTML references to use correct relative path
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            sed -i "" "s|libs/|${relative_path}|g" "$html_file"
+        else
+            sed -i "s|libs/|${relative_path}|g" "$html_file"
+        fi
+
         # Move and rename the file
         mv "$html_file" "$new_filepath"
         echo "Renamed and moved: $html_file -> $new_filepath"
 
-        # Delete the export folder if it's empty or only contains the moved file
+        # Delete the export folder if it's empty
         if [ -d "$html_dir" ]; then
-            # Check if export directory is empty
             if [ -z "$(ls -A "$html_dir" 2>/dev/null)" ]; then
                 rmdir "$html_dir"
                 echo "Removed empty export folder: $html_dir"
@@ -111,10 +110,3 @@ echo "✅ Consolidation and reorganization complete!"
 echo "📁 Shared libs folder: ./slides/shared-libs"
 echo "🔗 HTML files renamed and moved to slides directories"
 echo "🗑️  Empty export folders removed"
-echo ""
-echo "Your directory structure should now look like:"
-echo "├── slides/"
-echo "│   └── shared-libs/"
-echo "├── presentation1/slides/My-Presentation-Title.html"
-echo "├── presentation2/slides/Another-Presentation.html"
-echo "└── ..."

@@ -9,6 +9,8 @@ customTheme: "custom-styles"
 
 # Data collection: Stroop task
 
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop.png?raw=true" alt="" width="700">
+
 ---
 
 Each person does all 4 tasks, then on to the next person
@@ -24,13 +26,13 @@ Each person does all 4 tasks, then on to the next person
 
 ---
 
-One the next slide...
+One the first slide...
 
 read all the words
 
 ---
 
-<img src="Images/Stroop1_reading_noint.png" alt="" width="700">
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop1_reading_noint.png?raw=true" alt="" width="700">
 
 
 ---
@@ -41,7 +43,7 @@ say the color that the words are printed in
 
 ---
 
-<img src="Images/Stroop2_naming_int.png" alt="" width="700">
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop2_naming_int.png?raw=true" alt="" width="700">
 
 
 ---
@@ -52,7 +54,7 @@ say the color that the symbols are printed in
 
 ---
 
-<img src="Images/Stroop3_naming_noint.png" alt="" width="700">
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop3_naming_noint.png?raw=true" alt="" width="700">
 
 
 ---
@@ -63,10 +65,15 @@ read all the words
 
 ---
 
-<img src="Images/Stroop4_reading_int.png" alt="" width="700">
+<img src="https://github.com/ethanweed/LaCoBra/blob/main/resources/Stroop4_reading_int.png?raw=true" alt="" width="700">
 
 
 ---
+
+
+
+---
+
 
 ## References {#references}
 

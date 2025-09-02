@@ -69,8 +69,7 @@ Gustave Dax (1815 - 1893)
 
 #### Expressive Aphasia: Repetition
 
-1. <span class="fragment">Disrupted, especially for multi-word sequences and
-closed-class items</span>
+1. <span class="fragment">Disrupted, especially for multi-word sequences and closed-class items</span>
 
 --
 
@@ -80,6 +79,22 @@ closed-class items</span>
     <img src="https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0" alt="" width=700>
     <figcaption>Lesion overlap: 36 patients with expressive aphasia (Dronkers & Baldo, 2009)</figcaption>
 </figure>
+
+--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Sz-DJeXfMQ?si=iPSSmH_tTm6axyXJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RMa9BVpJkYQ?si=BmswEwqKSEjeB8w-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1aplTvEQ6ew?si=2kzBY3g42DqIeICR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PFFr5TFtgII?si=l5hui9I68_qdKSDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ---

@@ -87,4 +87,8 @@ Hockett's [design features](https://en.wikipedia.org/wiki/Hockett%27s_design_fea
 ## References {#references}
 
 - Beecher, M. D. (2021). Why are no animal communication systems simple languages? *Frontiers in psychology*, 12, 602635.
+- Hockett, В. C. F. (1959). Animal “languages” and Human Language. Human Biology, 31(1), 32–39.
+- Pepperberg, I. M. (n.d.). Numerical Competence in an African Gray Parrot (Psittacus erithacus). Journal of Comparative Psychology, 108(1).
+- Savage-Rumbaugh, S. (1996). Kanzi: The ape at the brink of the human mind. Turner Publishing Company.
+- Skinner, B. F. (1951). How to teach animals. Scientific American, 185(6), 26-29.
 - Wacewicz, S. (2021). Commentary: why are no animal communication systems simple languages? *Frontiers in Psychology, 12*, 763445.

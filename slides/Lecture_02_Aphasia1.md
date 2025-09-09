@@ -62,7 +62,7 @@ Gustave Dax (1815 - 1893)
 #### Expressive Aphasia: Comprehension
 
 1. <span class="fragment">Relatively preserved understanding of colloquial conversation</span>
-2. <span class="fragment">Poor comprehension on of some types of syntactically complex grammatical constructions</span>
+2. <span class="fragment">Poor comprehension of some types of syntactically complex grammatical constructions</span>
 
 
 --
@@ -76,7 +76,7 @@ Gustave Dax (1815 - 1893)
 
 
 <figure>
-    <img src="https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0" alt="" width=700>
+    <img src="https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0" alt="" width=400>
     <figcaption>Lesion overlap: 36 patients with expressive aphasia (Dronkers & Baldo, 2009)</figcaption>
 </figure>
 
@@ -140,8 +140,9 @@ Carl Wernicke (1848-1905)
 --
 
 
+
 <figure>
-    <img src="https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0" alt="" width=700>
+    <img src="https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0" alt="" width=400>
     <figcaption>Lesion overlap: 11 patients with receptive aphasia (Dronkers & Baldo, 2009)</figcaption>
 </figure>
 
@@ -154,19 +155,16 @@ Side by side: Broca’s vs. Wernicke’s aphasia
 <div class="two-columns">
 <div class="column">
 
-![](https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0)
+<img src="https://lh5.googleusercontent.com/kCeDM6M-gz71P6bFIk2IlacLhydUyi7eVxNTe35qgIy4H-ZDYzKfbMblbvqXzGxBCH-dAwTSvLH43GLbTaDZHEuoxywcm8jCiSTCZAVQNSgwzaztgzGKoxKxP9Y2BhnOq1kaQW6jSVA=s0" alt="" width=400>
 
 </div>
 <div class="column">
 
-![](https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0)
+<img src="https://lh4.googleusercontent.com/fiuNqZ5QEgavJgJrpdmpAoCGUXLxg_BSPNdGns-KuWGTykoy4yPTiLryZp5AhMqFTwofnNeeBQm4gL7BP8Apcb3P4OTNkpuKWd4SFx3nZjoC1-Pfm7GUi1ueilkhuV9vOrjkkjBG_rM=s0" alt="" width=400>
 
 </div>
 </div>
 
---
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1aplTvEQ6ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --
 

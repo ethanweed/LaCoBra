@@ -56,15 +56,14 @@ if [ -n "$html_files" ]; then
             title="presentation"
         fi
 
-        # Sanitize title for filename
-        sanitized_title=$(echo "$title" | sed 's/[[:space:]]\+/-/g' | sed 's/[^a-zA-Z0-9._-]//g' | sed 's/^-\+\|-\+$//g')
 
-        if [ -z "$sanitized_title" ]; then
-            sanitized_title="presentation"
-        fi
+		# Sanitize title for filename
+		sanitized_title=$(echo "$title" | sed 's/[[:space:]]\+/-/g' | sed 's/[^a-zA-Z0-9._-]//g' | sed 's/^-\+\|-\+$//g')
+		[ -z "$sanitized_title" ] && sanitized_title="presentation"
 
-        # Create new filename with .html extension
-        new_filename="${sanitized_title}.html"
+		# add date and time to filename
+		datetime_suffix=$(date +"%Y-%m-%d_%H-%M-%S")
+		new_filename="${sanitized_title}-${datetime_suffix}.html"
         new_filepath="${slides_dir}/${new_filename}"
 
         # Handle filename conflicts
